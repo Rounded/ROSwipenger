@@ -1,0 +1,14 @@
+PODS:
+  - ROSwipenger (0.1.0)
+
+DEPENDENCIES:
+  - ROSwipenger (from `../`)
+
+EXTERNAL SOURCES:
+  ROSwipenger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ROSwipenger: a65b5b16fbcf70e8517d04044f12c3f75b9f9a15
+
+COCOAPODS: 0.35.0

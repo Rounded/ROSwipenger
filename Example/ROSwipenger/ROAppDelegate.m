@@ -1,18 +1,26 @@
 //
 //  ROAppDelegate.m
-//  ROSwipenger
+//  ROSlidingPageController
 //
-//  Created by CocoaPods on 12/15/2014.
+//  Created by CocoaPods on 11/07/2014.
 //  Copyright (c) 2014 Heather Snepenger. All rights reserved.
 //
 
 #import "ROAppDelegate.h"
+#import "ROViewController.h"
 
 @implementation ROAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    ROViewController *controller = [ROViewController new];
+    [self.window setRootViewController:controller];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							

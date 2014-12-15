@@ -1,8 +1,8 @@
 //
 //  ROViewController.h
-//  ROSwipenger
+//  ROSlidingPageController
 //
-//  Created by Heather Snepenger on 12/15/2014.
+//  Created by Heather Snepenger on 11/07/2014.
 //  Copyright (c) 2014 Heather Snepenger. All rights reserved.
 //
 
