@@ -1,5 +1,5 @@
 #include "Pods-Tests-ROSwipenger.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/ROSwipenger" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ROSwipenger"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/ROSwipenger" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/PureLayout" "${PODS_ROOT}/Headers/Public/ROSwipenger"
 OTHER_LDFLAGS = -ObjC
 PODS_ROOT = ${SRCROOT}

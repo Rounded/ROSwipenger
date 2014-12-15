@@ -9,10 +9,10 @@
 
 Pod::Spec.new do |s|
   s.name             = "ROSwipenger"
-  s.version          = "0.1.0"
-  s.summary          = "Brian is awesome....NOT"
+  s.version          = "0.0.2"
+  s.summary          = "Lazy loading sliding page view controller!"
   s.description      = <<-DESC
-                       Im a stupiod face
+                       This is a sliding page view controller that lazily loads in the child view controllers.
                        DESC
   s.homepage         = "https://github.com/Rounded/ROSwipenger"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'PureLayout'
+  s.dependency 'PureLayout'
 end

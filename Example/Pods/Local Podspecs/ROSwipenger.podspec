@@ -10,19 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "ROSwipenger"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ROSwipenger."
+  s.summary          = "Lazy loading sliding page view controller!"
   s.description      = <<-DESC
-                       An optional longer description of ROSwipenger
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       This is a sliding page view controller that lazily loads in the child view controllers.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ROSwipenger"
+  s.homepage         = "https://github.com/Rounded/ROSwipenger"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Heather Snepenger" => "hs@roundedco.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ROSwipenger.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/Rounded/ROSwipenger.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/roundedco'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -34,5 +31,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'PureLayout'
 end

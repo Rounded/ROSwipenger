@@ -1,5 +1,7 @@
 PODS:
-  - ROSwipenger (0.1.0)
+  - PureLayout (2.0.4)
+  - ROSwipenger (0.1.0):
+    - PureLayout
 
 DEPENDENCIES:
   - ROSwipenger (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ROSwipenger: a65b5b16fbcf70e8517d04044f12c3f75b9f9a15
+  PureLayout: ddf4fedf7e2f5984f972bbd2205dda4fc3418347
+  ROSwipenger: 14b5af2ead5c29a108172e38c02c62243b462562
 
 COCOAPODS: 0.35.0
