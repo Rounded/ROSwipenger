@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ROSwipenger', :exclusive => true do
+  pod "ROSwipenger", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ROSwipenger", :path => "../"
+
+  
+end
