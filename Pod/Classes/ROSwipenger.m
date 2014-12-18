@@ -40,6 +40,8 @@
 @property (assign, nonatomic) CGFloat disabledTitleAlpha;
 @property (assign, nonatomic) NSInteger childViewControllerWidth;
 
+@property (assign, nonatomic) BOOL viewJustLoaded;
+
 @end
 
 @implementation ROSwipenger
@@ -69,17 +71,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.viewJustLoaded = YES;
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-
     // After the view is displayed, show the scroll indicator
-    if (self.titles.count > 0) {
+    if (self.titles.count > 0 && self.viewJustLoaded) {
         UIButton *firstButton = (UIButton *)[self.titleContainer viewWithTag:0 + TITLE_TAG_OFFSET];
         [self moveIndicatorUnderneathButton:firstButton];
         self.scrollIndicatorContainer.hidden = NO;
     }
+
+    self.viewJustLoaded = NO;
 }
 
 - (void)setDefaultValues {
@@ -155,7 +159,6 @@
     self.leftOffsetConstraint = [self.scrollIndicatorContainer autoPinEdge:ALEdgeLeft toEdge:ALEdgeLeft ofView:self.titleContainer withOffset:self.titlePadding];
 
 
-    
     [self.scrollIndicator autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:0];
     [self.scrollIndicator autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0];
     [self.scrollIndicator autoAlignAxisToSuperviewAxis:ALAxisVertical];
@@ -191,6 +194,7 @@
         button.alpha = self.disabledTitleAlpha;
         button.tag = i + TITLE_TAG_OFFSET;
         button.translatesAutoresizingMaskIntoConstraints = NO;
+        button.contentEdgeInsets = UIEdgeInsetsMake(0, 7, 0, 7);
         [button addTarget:self action:@selector(moveIndicatorUnderneathButton:) forControlEvents:UIControlEventTouchUpInside];
         
         [self.titleContainer addSubview:button];
@@ -282,7 +286,6 @@
         if (self.pagingScrollView.contentOffset.x < 0 || (self.titles.count - 1) * self.childViewControllerWidth < self.pagingScrollView.contentOffset.x) {
             return;
         }
-        
 
         CGFloat titleDistance;
         // get the distance based on direction of swipe
@@ -294,7 +297,6 @@
         }
         
         self.lastContentOffset = self.pagingScrollView.contentOffset.x;
-        
         
         float b = titleDistance / self.childViewControllerWidth;
         float a = [self.titleContainer viewWithTag:(self.currentPage + TITLE_TAG_OFFSET)].center.x - b * (self.currentPage * self.childViewControllerWidth);

@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ROSwipenger"
-  s.version          = "0.1.0"
+  s.version          = "0.0.2"
   s.summary          = "Lazy loading sliding page view controller!"
   s.description      = <<-DESC
                        This is a sliding page view controller that lazily loads in the child view controllers.
