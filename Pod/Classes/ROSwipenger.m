@@ -12,7 +12,7 @@
 #define TITLE_TAG_OFFSET 304
 #define VC_TAG_OFFSET 832
 
-#define SCROLL_CONTAINER_WIDTH 1
+#define SCROLL_CONTAINER_WIDTH 0
 
 @interface ROSwipenger () <UIScrollViewDelegate>
 
@@ -151,13 +151,13 @@
     [self updateScrollIndicatorHeight];
     [self.scrollIndicatorContainer autoSetDimension:ALDimensionWidth toSize:SCROLL_CONTAINER_WIDTH];
     self.heightConstraint = [self.scrollIndicatorContainer autoSetDimension:ALDimensionHeight toSize:self.scrollIndicatorHeight];
-    [self.scrollIndicatorContainer autoPinEdgeToSuperviewEdge:ALEdgeBottom];
+    [self.scrollIndicatorContainer autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0];
     self.leftOffsetConstraint = [self.scrollIndicatorContainer autoPinEdge:ALEdgeLeft toEdge:ALEdgeLeft ofView:self.titleContainer withOffset:self.titlePadding];
 
 
     
-    [self.scrollIndicator autoPinEdgeToSuperviewEdge:ALEdgeTop];
-    [self.scrollIndicator autoPinEdgeToSuperviewEdge:ALEdgeBottom];
+    [self.scrollIndicator autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:0];
+    [self.scrollIndicator autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0];
     [self.scrollIndicator autoAlignAxisToSuperviewAxis:ALAxisVertical];
     self.widthConstraint = [self.scrollIndicator autoSetDimension:ALDimensionWidth toSize:self.minTitleWidth/2];
     
@@ -373,7 +373,7 @@
 - (UIView *)scrollIndicatorContainer {
     if (!_scrollIndicatorContainer) {
         _scrollIndicatorContainer = [UIView newAutoLayoutView];
-        _scrollIndicatorContainer.backgroundColor = [UIColor whiteColor];
+        _scrollIndicatorContainer.backgroundColor = [UIColor clearColor];
         _scrollIndicatorContainer.hidden = YES;
     }
     return _scrollIndicatorContainer;
