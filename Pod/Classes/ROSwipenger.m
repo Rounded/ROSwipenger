@@ -62,6 +62,22 @@
     return self;
 }
 
+- (id) initWithAttributedTitles:(NSArray *)attributedTitles andViewControllers:(NSArray *)viewControllers
+{
+    self = [super init];
+    if (self) {
+        self.scrollIndicatorAutoFitTitleWidth = YES;
+        self.titles = attributedTitles;
+        self.childViewControllers = viewControllers;
+        
+        self.currentPage = 0;
+        
+        // Make sure there are the same count of titles to view controllers
+        assert(self.titles.count == self.childViewControllers.count);
+    }
+    return self;
+}
+
 - (void)loadView {
     [super loadView];
     
@@ -184,13 +200,14 @@
 - (void)addTitles {
     
     for (int i = 0; i < self.titles.count; i++) {
-        NSString *title = self.titles[i];
-        UIButton *button = [UIButton newAutoLayoutView];
-        [button setTitle:title forState:UIControlStateNormal];
-        [button setTitleColor:self.titleTextColor forState:UIControlStateNormal];
-        if (self.titleFont) {
-            [button.titleLabel setFont:self.titleFont];
+        NSObject *titleObject = self.titles[i];
+        UIButton *button;
+        if ([titleObject isKindOfClass:[NSString class]]) {
+            button = [self newButtonWithTitle:(NSString *)titleObject];
+        } else if ([titleObject isKindOfClass:[NSAttributedString class]]) {
+            button = [self newButtonWithAttributedString:(NSAttributedString *)titleObject];
         }
+
         button.alpha = self.disabledTitleAlpha;
         button.tag = i + TITLE_TAG_OFFSET;
         button.translatesAutoresizingMaskIntoConstraints = NO;
@@ -211,6 +228,22 @@
         }
     }
     
+}
+
+- (UIButton *)newButtonWithTitle:(NSString *)title {
+    UIButton *button = [UIButton newAutoLayoutView];
+    [button setTitle:title forState:UIControlStateNormal];
+    [button setTitleColor:self.titleTextColor forState:UIControlStateNormal];
+    if (self.titleFont) {
+        [button.titleLabel setFont:self.titleFont];
+    }
+    return button;
+}
+
+- (UIButton *)newButtonWithAttributedString:(NSAttributedString *)title {
+    UIButton *button = [UIButton newAutoLayoutView];
+    [button setAttributedTitle:title forState:UIControlStateNormal];
+    return button;
 }
 
 

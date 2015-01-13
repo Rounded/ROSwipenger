@@ -65,7 +65,13 @@
     ImageViewController *dummy8 = [ImageViewController new];
     dummy8.image = [UIImage imageNamed:@"Andrew.jpg"];
     
-    ROSwipenger *controller = [[ROSwipenger alloc] initWithTitles:@[@"Brian", @"Rob", @"Heather", @"Steve", @"Kyle", @"Ben", @"Jordan", @"Andrew"] andViewControllers:@[dummy1, dummy2, dummy3, dummy4, dummy5, dummy6, dummy7, dummy8]];
+//    ROSwipenger *controller = [[ROSwipenger alloc] initWithTitles:@[@"Brian", @"Rob", @"Heather", @"Steve", @"Kyle", @"Ben", @"Jordan", @"Andrew"] andViewControllers:@[dummy1, dummy2, dummy3, dummy4, dummy5, dummy6, dummy7, dummy8]];
+    
+    NSDictionary *attributes = @{NSForegroundColorAttributeName: [UIColor whiteColor],
+                                 NSFontAttributeName: [UIFont fontWithName:@"HelveticaNeue-Light" size:20.0],
+                                 NSKernAttributeName: @2};
+    
+    ROSwipenger *controller = [[ROSwipenger alloc] initWithAttributedTitles:@[[[NSAttributedString alloc] initWithString:@"Brian" attributes:attributes], [[NSAttributedString alloc] initWithString:@"Rob" attributes:attributes], [[NSAttributedString alloc] initWithString:@"Heather123123" attributes:attributes]] andViewControllers:@[dummy1, dummy2, dummy3]];
     [controller setScrollIndicatorColor:[UIColor blackColor]];
     [controller setScrollIndicatorAutoFitTitleWidth:YES];
     [controller setTitleFont:[UIFont fontWithName:@"Cochin" size:19]];

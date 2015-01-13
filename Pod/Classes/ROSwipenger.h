@@ -31,5 +31,6 @@
 @property (assign, nonatomic) BOOL scrollIndicatorAutoFitTitleWidth;
 
 - (id) initWithTitles:(NSArray *)titles andViewControllers:(NSArray *)viewControllers;
+- (id) initWithAttributedTitles:(NSArray *)attributedTitles andViewControllers:(NSArray *)viewControllers;
 
 @end
