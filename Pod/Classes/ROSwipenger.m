@@ -174,12 +174,10 @@
     [self.scrollIndicatorContainer autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0];
     self.leftOffsetConstraint = [self.scrollIndicatorContainer autoPinEdge:ALEdgeLeft toEdge:ALEdgeLeft ofView:self.titleContainer withOffset:self.titlePadding];
 
-
     [self.scrollIndicator autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:0];
     [self.scrollIndicator autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:0];
     [self.scrollIndicator autoAlignAxisToSuperviewAxis:ALAxisVertical];
     self.widthConstraint = [self.scrollIndicator autoSetDimension:ALDimensionWidth toSize:self.minTitleWidth/2];
-    
     
     [self.pagingScrollView autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:ALEdgeTop];
     [self.pagingScrollView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.titleScrollView withOffset:0];
@@ -292,13 +290,22 @@
     
     
     // If the title is on the left hand side of the screen move the title bar over
-    if ((button.frame.origin.x - self.titleScrollView.contentOffset.x) < self.titlePadding && self.currentPage > 0) {
-        [self.titleScrollView setContentOffset:CGPointMake(self.titleScrollView.contentOffset.x - [self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET - 1].frame.size.width - self.titlePadding / 2, self.titleScrollView.contentOffset.y) animated:YES];
+    if ((button.frame.origin.x - self.titleScrollView.contentOffset.x) < self.titlePadding) {
+        if (self.currentPage > 0) {
+            [self.titleScrollView setContentOffset:CGPointMake(self.titleScrollView.contentOffset.x - [self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET - 1].frame.size.width - self.titlePadding / 2, self.titleScrollView.contentOffset.y) animated:YES];
+        } else { // if it's the first title, move all the way over
+            [self.titleScrollView setContentOffset:CGPointZero animated:YES];
+        }
     }
     
     // If the title is on the right hand side of the screen, move the title bar over to the right
-    if (((button.frame.origin.x + button.frame.size.width) - self.titleScrollView.contentOffset.x) > (self.childViewControllerWidth - self.titlePadding) && self.currentPage < self.titles.count - 1) {
-        [self.titleScrollView setContentOffset:CGPointMake(self.titleScrollView.contentOffset.x + [self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET + 1].frame.size.width + self.titlePadding / 2, self.titleScrollView.contentOffset.y) animated:YES];
+    if (((button.frame.origin.x + button.frame.size.width) - self.titleScrollView.contentOffset.x) > (self.childViewControllerWidth - self.titlePadding)) {
+        if (self.currentPage < self.titles.count - 1) {
+            [self.titleScrollView setContentOffset:CGPointMake(self.titleScrollView.contentOffset.x + [self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET + 1].frame.size.width + self.titlePadding / 2, self.titleScrollView.contentOffset.y) animated:YES];
+        } else { // if it's the last title, move to the end
+            CGPoint bottomOffset = CGPointMake(self.titleScrollView.contentSize.width - self.titleScrollView.bounds.size.width, 0);
+            [self.titleScrollView setContentOffset:bottomOffset animated:YES];
+        }
     }
     [self loadViewControllerAtIndex:self.currentPage - 1];
     [self loadViewControllerAtIndex:self.currentPage];
