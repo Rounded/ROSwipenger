@@ -292,7 +292,8 @@
     // If the title is on the left hand side of the screen move the title bar over
     if ((button.frame.origin.x - self.titleScrollView.contentOffset.x) < self.titlePadding) {
         if (self.currentPage > 0) {
-            [self.titleScrollView setContentOffset:CGPointMake(self.titleScrollView.contentOffset.x - [self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET - 1].frame.size.width - self.titlePadding / 2, self.titleScrollView.contentOffset.y) animated:YES];
+            CGFloat newOffset = self.titleScrollView.contentOffset.x - [self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET - 1].frame.size.width - self.titlePadding / 2;
+            [self.titleScrollView setContentOffset:CGPointMake(MAX(0, newOffset), 0) animated:YES];
         } else { // if it's the first title, move all the way over
             [self.titleScrollView setContentOffset:CGPointZero animated:YES];
         }
@@ -300,11 +301,12 @@
     
     // If the title is on the right hand side of the screen, move the title bar over to the right
     if (((button.frame.origin.x + button.frame.size.width) - self.titleScrollView.contentOffset.x) > (self.childViewControllerWidth - self.titlePadding)) {
+        CGFloat leftOffset = self.titleScrollView.contentSize.width - self.titleScrollView.bounds.size.width;
+        CGFloat newOffset = self.titleScrollView.contentOffset.x + [self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET + 1].frame.size.width + self.titlePadding / 2;
         if (self.currentPage < self.titles.count - 1) {
-            [self.titleScrollView setContentOffset:CGPointMake(self.titleScrollView.contentOffset.x + [self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET + 1].frame.size.width + self.titlePadding / 2, self.titleScrollView.contentOffset.y) animated:YES];
+            [self.titleScrollView setContentOffset:CGPointMake(MIN(leftOffset, newOffset), 0) animated:YES];
         } else { // if it's the last title, move to the end
-            CGPoint bottomOffset = CGPointMake(self.titleScrollView.contentSize.width - self.titleScrollView.bounds.size.width, 0);
-            [self.titleScrollView setContentOffset:bottomOffset animated:YES];
+            [self.titleScrollView setContentOffset:CGPointMake(leftOffset, 0) animated:YES];
         }
     }
     [self loadViewControllerAtIndex:self.currentPage - 1];
