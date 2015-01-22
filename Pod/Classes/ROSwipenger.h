@@ -11,8 +11,8 @@
 
 @interface ROSwipenger : UIViewController
 
-@property (strong, nonatomic) NSArray *titles;
-@property (strong, nonatomic) NSArray *childViewControllers;
+@property (strong, nonatomic) NSMutableArray *titles;
+@property (strong, nonatomic) NSMutableArray *childViewControllers;
 
 // Colors
 @property (strong, nonatomic) UIColor *titleBarBackground;
@@ -32,5 +32,27 @@
 
 - (id) initWithTitles:(NSArray *)titles andViewControllers:(NSArray *)viewControllers;
 - (id) initWithAttributedTitles:(NSArray *)attributedTitles andViewControllers:(NSArray *)viewControllers;
+
+/**
+ *  remove a title and corresponding view controller at a given index
+ *
+ *  @param index to be removed
+ */
+- (void) removeTitleAtIndex:(NSInteger)index;
+/**
+ *  Add a title and view controller at the end of the scrollviews
+ *
+ *  @param title          to be added
+ *  @param viewController to be added
+ */
+- (void) addTitle:(NSObject *)title withViewController:(UIViewController *)viewController;
+/**
+ *  Add a title and view controller at the end of the scrollviews
+ *
+ *  @param title          to be added
+ *  @param viewController to be added
+ *  @param index          to be added at
+ */
+- (void) addTitle:(NSObject *)title withViewController:(UIViewController *)viewController atIndex:(NSInteger)index;
 
 @end

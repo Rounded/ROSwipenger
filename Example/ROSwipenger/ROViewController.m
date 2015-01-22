@@ -77,6 +77,14 @@
     [controller setTitleFont:[UIFont fontWithName:@"Cochin" size:19]];
 
     [self presentViewController:controller animated:YES completion:nil];
+    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [controller addTitle:[[NSAttributedString alloc] initWithString:@"Kyle" attributes:attributes] withViewController:dummy5 atIndex:1];
+//    });
+    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(7.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [controller removeTitleAtIndex:0];
+//    });
 }
 
 - (void)didReceiveMemoryWarning

@@ -28,6 +28,7 @@
 @property (strong, nonatomic) NSLayoutConstraint *widthConstraint;
 
 @property (strong, nonatomic) NSLayoutConstraint *titleBackgroundHeightConstraint;
+@property (strong, nonatomic) NSLayoutConstraint *pagingContainerWidthConstraint;
 
 @property (assign, nonatomic) NSInteger currentPage;
 @property (assign, nonatomic) CGFloat lastContentOffset;
@@ -51,8 +52,8 @@
     self = [super init];
     if (self) {
         self.scrollIndicatorAutoFitTitleWidth = YES;
-        self.titles = titles;
-        self.childViewControllers = viewControllers;
+        self.titles = [titles mutableCopy];
+        self.childViewControllers = [viewControllers mutableCopy];
         
         self.currentPage = 0;
         
@@ -67,8 +68,8 @@
     self = [super init];
     if (self) {
         self.scrollIndicatorAutoFitTitleWidth = YES;
-        self.titles = attributedTitles;
-        self.childViewControllers = viewControllers;
+        self.titles = [attributedTitles mutableCopy];
+        self.childViewControllers = [viewControllers mutableCopy];
         
         self.currentPage = 0;
         
@@ -181,13 +182,71 @@
     
     [self.pagingScrollView autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero excludingEdge:ALEdgeTop];
     [self.pagingScrollView autoPinEdge:ALEdgeTop toEdge:ALEdgeBottom ofView:self.titleScrollView withOffset:0];
-    
+    [self pagingContainerWidthConstraint];
     [self.pagingContainer autoMatchDimension:ALDimensionHeight toDimension:ALDimensionHeight ofView:self.pagingScrollView];
-    [self.pagingContainer autoSetDimension:ALDimensionWidth toSize:self.childViewControllerWidth * self.titles.count];
+    
     [self.pagingContainer autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsZero];
     
     
     [super updateViewConstraints];
+}
+
+- (void) removeTitleAtIndex:(NSInteger)index {
+    assert(index < self.titles.count && index > -1);
+    
+    [self.titles removeObjectAtIndex:index];
+    [self.childViewControllers removeObjectAtIndex:index];
+    
+    [self reloadViews];
+}
+
+- (void)addTitle:(NSObject *)title withViewController:(UIViewController *)viewController {
+    [self addTitle:title withViewController:viewController atIndex:self.titles.count];
+}
+
+- (void)addTitle:(NSObject *)title withViewController:(UIViewController *)viewController atIndex:(NSInteger)index {
+    assert(index <= self.titles.count && index > -1);
+    
+    [self.titles insertObject:title atIndex:index];
+    [self.childViewControllers insertObject:viewController atIndex:index];
+    
+    [self reloadViews];
+}
+
+- (void)reloadViews {
+    [UIView animateWithDuration:0.15
+                     animations:^{
+                         // fade the title and paging containers out
+                         self.titleContainer.alpha = 0.8;
+                         self.pagingContainer.alpha = 0.8;
+                     }
+                     completion:^(BOOL finished) {
+                         // Remove all the subviews from the title and paging container
+                         [self.titleContainer.subviews makeObjectsPerformSelector: @selector(removeFromSuperview)];
+                         [self.pagingContainer.subviews makeObjectsPerformSelector: @selector(removeFromSuperview)];
+                         
+                         [self addTitles];
+                         self.pagingContainerWidthConstraint.constant = self.childViewControllerWidth * self.titles.count;
+                         
+                         if (self.currentPage == self.titles.count) {
+                             self.currentPage--;
+                         }
+                         
+                         [self fadeInNewButton:[self.titleContainer viewWithTag:self.currentPage + TITLE_TAG_OFFSET]];
+                         [self loadViewControllerAtIndex:self.currentPage];
+                         [self loadViewControllerAtIndex:self.currentPage - 1];
+                         [self loadViewControllerAtIndex:self.currentPage + 1];
+                         
+                         [UIView animateWithDuration:0.2
+                                          animations:^{
+                                              // fade the title and paging containers back in
+                                              self.titleContainer.alpha = 1;
+                                              self.pagingContainer.alpha = 1;
+                                          }
+                                          completion:^(BOOL finished) {
+                                              
+                                          }];
+                     }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -429,6 +488,13 @@
         _pagingContainer.backgroundColor = [UIColor clearColor];
     }
     return _pagingContainer;
+}
+
+- (NSLayoutConstraint *)pagingContainerWidthConstraint {
+    if (!_pagingContainerWidthConstraint) {
+        _pagingContainerWidthConstraint = [self.pagingContainer autoSetDimension:ALDimensionWidth toSize:self.childViewControllerWidth * self.titles.count];
+    }
+    return _pagingContainerWidthConstraint;
 }
 
 #pragma mark - Setters
