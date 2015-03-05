@@ -11,6 +11,7 @@
 		448D874E1A3F730500B3BE95 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448D87481A3F730500B3BE95 /* ImageViewController.xib */; };
 		448D874F1A3F730500B3BE95 /* ROAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D874A1A3F730500B3BE95 /* ROAppDelegate.m */; };
 		448D87501A3F730500B3BE95 /* ROViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448D874C1A3F730500B3BE95 /* ROViewController.m */; };
+		44DFABE51AA8A5DF00A73F44 /* libPods-ROSwipenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DFABE41AA8A5DF00A73F44 /* libPods-ROSwipenger.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		7111CC00CC23086792F91F65 /* libPods-ROSwipenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F83CDA97FCFB05E444B4CC30 /* libPods-ROSwipenger.a */; };
 		93E2465E31DD57915F0BDA76 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B85C5B5C6EA4E825205747B1 /* libPods-Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +44,8 @@
 		448D874A1A3F730500B3BE95 /* ROAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROAppDelegate.m; sourceTree = "<group>"; };
 		448D874B1A3F730500B3BE95 /* ROViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROViewController.h; sourceTree = "<group>"; };
 		448D874C1A3F730500B3BE95 /* ROViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROViewController.m; sourceTree = "<group>"; };
+		44DFABE21AA8A5D900A73F44 /* libPods-ROSwipenger-ROSwipenger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ROSwipenger-ROSwipenger.a"; path = "Pods/build/Debug-iphoneos/libPods-ROSwipenger-ROSwipenger.a"; sourceTree = "<group>"; };
+		44DFABE41AA8A5DF00A73F44 /* libPods-ROSwipenger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ROSwipenger.a"; path = "Pods/build/Debug-iphoneos/libPods-ROSwipenger.a"; sourceTree = "<group>"; };
 		58FB5643EEE2BCE5709A30B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ROSwipenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROSwipenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,10 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DFABE51AA8A5DF00A73F44 /* libPods-ROSwipenger.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7111CC00CC23086792F91F65 /* libPods-ROSwipenger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44DFABE41AA8A5DF00A73F44 /* libPods-ROSwipenger.a */,
+				44DFABE21AA8A5D900A73F44 /* libPods-ROSwipenger-ROSwipenger.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -488,6 +492,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ROSwipenger/ROSwipenger-Prefix.pch";
 				INFOPLIST_FILE = "ROSwipenger/ROSwipenger-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -502,6 +510,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ROSwipenger/ROSwipenger-Prefix.pch";
 				INFOPLIST_FILE = "ROSwipenger/ROSwipenger-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

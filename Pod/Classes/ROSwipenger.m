@@ -119,8 +119,11 @@
     if (!self.scrollIndicatorHeight)
         self.scrollIndicatorHeight = 4;
     
-    if (!self.childViewControllerWidth)
-        self.childViewControllerWidth = 320;
+    if (!self.childViewControllerWidth){
+        CGRect screenRect = [[UIScreen mainScreen] bounds];
+        CGFloat screenWidth = screenRect.size.width;
+        self.childViewControllerWidth = screenWidth;
+    }
     
     if (!self.titleBarBackground)
         self.titleBarBackground = [UIColor darkGrayColor];
@@ -321,7 +324,6 @@
         
         [childViewController.view autoSetDimension:ALDimensionWidth toSize:self.childViewControllerWidth];
         [childViewController.view autoMatchDimension:ALDimensionHeight toDimension:ALDimensionHeight ofView:self.pagingContainer];
-        
         [childViewController.view autoPinEdgesToSuperviewEdgesWithInsets:UIEdgeInsetsMake(0, index * self.childViewControllerWidth, 0, 0) excludingEdge:ALEdgeRight];
     }
 }

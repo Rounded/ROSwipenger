@@ -1,2716 +1,1159 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00C8879C554EBBD11D6057B4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AD84F4EC0304474269554C71</string>
-				<string>5DFF613EA14ADB404C934FD5</string>
-				<string>4ECC3E236B45980E784420B9</string>
-				<string>A2BDA5CDC6B810672DC9E2DD</string>
-				<string>87C38A16A7C515400A4EFEBC</string>
-				<string>6EBC817B890328A3B853F3DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0364FF4DEE85177BFF8579BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-ROSwipenger-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09668330BC32817173D4B9A5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A615B1E065B800CE9A61AA59</string>
-				<string>C3C66A7EF15AC84AEFFE1D63</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>098E8EFF5558F2849E0D13E4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F9C1EF443CCA82B81872F088</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0B25CD3583B9F66985098460</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0364FF4DEE85177BFF8579BE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0E77DF5788ACCDC1EC985B55</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PureLayout.h</string>
-			<key>path</key>
-			<string>Source/PureLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0EBDD1B2F07CB0B396BCEEC4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F6D307CFCEC936851FA43FB0</string>
-				<string>A58022B6D7D0FA07B9FBC33C</string>
-				<string>83B9265CF45CB96506A08AD5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ROSwipenger</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16C7B3C4CAE0C8F02114408D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1717AC1F4A41AAD0F3399A11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-ROSwipenger-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1755EB1C27F21985753A1732</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>ROSwipenger</string>
-			<key>target</key>
-			<string>D10452A7899617CAA2ABFA92</string>
-			<key>targetProxy</key>
-			<string>406E00DD67F653C5C56BB93F</string>
-		</dict>
-		<key>18B1DE2470CFF5C490F0EC20</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1DDDECE3D7F30FA3BCB9D0B7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>208255F19350C489D0A98C69</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6FCF6A83FF8E6561DBC21D8A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ROSwipenger-PureLayout/Pods-ROSwipenger-PureLayout-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>20CB6F6560699B9A04A2B79E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B6786E5CE806A8DE46456FDE</string>
-				<string>DBBFD21F543F21CAD9CA928F</string>
-				<string>DAB3D9AA0658591972E0C942</string>
-				<string>3B85CA8046C663835294E545</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2145B6BBAD3CDC2AD0D373DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-PureLayout.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>218AD1D13F48E00FCB10392E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E7EDC9A75A34780B4B8DF75D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>226C10BD3F08D8134090168C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-ROSwipenger</string>
-			<key>target</key>
-			<string>56BF129172910D26AF3612F9</string>
-			<key>targetProxy</key>
-			<string>ACEA74D329759E80DE053502</string>
-		</dict>
-		<key>2432E0559BD7FC5390262432</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B8329DF828C92D9B349BCF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2638C924F74791E87B4B50A0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>218AD1D13F48E00FCB10392E</string>
-				<string>2FCF8286ABB4F4EEB98A1544</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>275CC61CA6850C5F1906CA3A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>27BBEF82DF0797C715F3402A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F6970FA9770A7CC925E649DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>296B242A84B584880439F205</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A95463151861A47A609760E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B8329DF828C92D9B349BCF2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>2BF02E96B87A8E5FD96D636F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2FCF8286ABB4F4EEB98A1544</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A946C71D621C3E712287AA76</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>30BAF9BDE4E881E1CD614F84</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSArray+PureLayout.h</string>
-			<key>path</key>
-			<string>Source/NSArray+PureLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31069DA778379134D13E9B11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-PureLayout-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-PureLayout/Pods-Tests-PureLayout-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3271F5D63D9C570CBB7DD508</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-ROSwipenger-PureLayout</string>
-			<key>target</key>
-			<string>717DFD31F39A4B3EDF1AF57C</string>
-			<key>targetProxy</key>
-			<string>C4335D96F5A2208BA8BF666F</string>
-		</dict>
-		<key>350632051375E98BC7795DE0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALView+PureLayout.m</string>
-			<key>path</key>
-			<string>Source/ALView+PureLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36437A62CBA650CCB7B7295B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB756734F49B97642ABEF79B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>36897367F846637EDBDE834F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-ROSwipenger-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>372F644FFAC1E32CDDA979A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F9C1EF443CCA82B81872F088</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38E02CF74783361257424252</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ROSwipenger-PureLayout.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3B5F35CB1FAA4999AF77AADB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>208255F19350C489D0A98C69</string>
-				<string>D8652DEE3DCFB5FFBDD609C8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3B85CA8046C663835294E545</key>
-		<dict>
-			<key>fileRef</key>
-			<string>31069DA778379134D13E9B11</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EB9632291595E969E1B6888</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>58731A596A768B0B3689079C</string>
-				<string>E9FE0DF22554860F6F219ACA</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3F84D2E6BAA7D897C8BC986E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-ROSwipenger-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3FDDD7D4EFB04C0A7CC78849</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A95463151861A47A609760E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>406E00DD67F653C5C56BB93F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C2CE51DBA79494D286AACB1E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D10452A7899617CAA2ABFA92</string>
-			<key>remoteInfo</key>
-			<string>ROSwipenger</string>
-		</dict>
-		<key>408CF220DD33E4475F1EBAD6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-PureLayout-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4170717CEFA37EDA7BD8455D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>36437A62CBA650CCB7B7295B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4382B70EDDB36305302D36AE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0B25CD3583B9F66985098460</string>
-				<string>9D5349FBBB1A795543A03E64</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>44E97C736AB611ED9C1444FE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ROSwipenger.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>484E54079905F6BC5868D9A7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C2CE51DBA79494D286AACB1E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>E959F4C518BBD3C131D47E6A</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-PureLayout</string>
-		</dict>
-		<key>4940AE48E59DAAF3E8C39C9E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ROSwipenger.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>49F1FA3A416E12C81BE540F3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A55C7AA3D210F5DF7B92732D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4B86302AFBFD4C13F74FBB1D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>85D43F463124AB1E1DCBC7F1</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4170717CEFA37EDA7BD8455D</string>
-				<string>FEC769C63777E60229BF846F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>EFA25190A2DD6A43B60DAC87</string>
-				<string>B6328BE2BD9B18869BB7B08B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ROSwipenger</string>
-			<key>productName</key>
-			<string>Pods-ROSwipenger</string>
-			<key>productReference</key>
-			<string>44E97C736AB611ED9C1444FE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>4CCAC05D0E348DAB4EBD0E48</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2432E0559BD7FC5390262432</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CEA5C4D9710538C95166BCF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF203B642B8E8C84D97E4182</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E473178036EF4AC8B108EED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B8329DF828C92D9B349BCF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4ECC3E236B45980E784420B9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF52D43EB8D9D86326B26A91</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51DDB41EBB185407E87B0203</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-PureLayout.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-PureLayout/Pods-Tests-PureLayout.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51F21E91148A62ED06995E22</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F6D307CFCEC936851FA43FB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52AA9E372B97689F996C2502</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B8329DF828C92D9B349BCF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>53FAB8BB3713FA739CEA738E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>36897367F846637EDBDE834F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ROSwipenger-ROSwipenger/Pods-ROSwipenger-ROSwipenger-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>54A7DD51A083E7111EFF1769</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-PureLayout-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56BF129172910D26AF3612F9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>4382B70EDDB36305302D36AE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7C91E1F6815D0541FFD325E6</string>
-				<string>6530F1A3301C72215E33B368</string>
-				<string>A334395422C7C597B71C41D9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>F7F52972576C81CF7F8C5A1D</string>
-				<string>1755EB1C27F21985753A1732</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-ROSwipenger</string>
-			<key>productName</key>
-			<string>Pods-Tests-ROSwipenger</string>
-			<key>productReference</key>
-			<string>BB1DA1B6958E30AF560729EB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>58731A596A768B0B3689079C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>879C4D689BCFC4BD9713ABF9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>58C4D7358D474B76C1C9CAFF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7293065F5FB000D289B407BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>592AB2EF7161A6CADE271118</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FCBD94928A6A9A5FB4B050D6</string>
-				<string>82E14D9A16D1B850B004A657</string>
-				<string>58C4D7358D474B76C1C9CAFF</string>
-				<string>098E8EFF5558F2849E0D13E4</string>
-				<string>62C0EB67B3F7BB815B63655F</string>
-				<string>4CEA5C4D9710538C95166BCF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>599BFF4E7BE7A00CF12393AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C1C80AF3C7696A90FEEEC32</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7293065F5FB000D289B407BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5DFF613EA14ADB404C934FD5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0EBDD1B2F07CB0B396BCEEC4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60CB264D18EA51FB8DFFE9C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-ROSwipenger.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>62C0EB67B3F7BB815B63655F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E77DF5788ACCDC1EC985B55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>63988CE5BB57A73DCA1726DE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0E77DF5788ACCDC1EC985B55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6530F1A3301C72215E33B368</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4E473178036EF4AC8B108EED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>66428DAC3EC786C97976CB9C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2145B6BBAD3CDC2AD0D373DB</string>
-				<string>6FCF6A83FF8E6561DBC21D8A</string>
-				<string>FCD1CA57749BA40957A83A9E</string>
-				<string>54A7DD51A083E7111EFF1769</string>
-				<string>51DDB41EBB185407E87B0203</string>
-				<string>879C4D689BCFC4BD9713ABF9</string>
-				<string>31069DA778379134D13E9B11</string>
-				<string>408CF220DD33E4475F1EBAD6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-ROSwipenger-PureLayout</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>667B4F733821A8F32D864D61</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B9186A71E3185946087EE4F4</string>
-				<string>C294B99EABFF9FC9435D1FF3</string>
-				<string>A9DE71F2393569E29ECF6CF4</string>
-				<string>8D7387A5D1768F442B7C5394</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6EBC817B890328A3B853F3DA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FA76EB5310EA4B20B6FA43B0</string>
-				<string>741FAE97FD1FE4E3DFBFA5A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F9DE84C3F84E42C8B7B1412</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F4E19A817C8F3C9B07B7A813</string>
-				<string>350632051375E98BC7795DE0</string>
-				<string>30BAF9BDE4E881E1CD614F84</string>
-				<string>8D1BFD66809EF61809699124</string>
-				<string>7293065F5FB000D289B407BF</string>
-				<string>C1FA2829009D29CFDC0A12E2</string>
-				<string>0E77DF5788ACCDC1EC985B55</string>
-				<string>F9C1EF443CCA82B81872F088</string>
-				<string>BF203B642B8E8C84D97E4182</string>
-				<string>66428DAC3EC786C97976CB9C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>PureLayout</string>
-			<key>path</key>
-			<string>PureLayout</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6FCF6A83FF8E6561DBC21D8A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-PureLayout-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>713D3BE9418F0FD55890FA19</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>52AA9E372B97689F996C2502</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>717DFD31F39A4B3EDF1AF57C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3B5F35CB1FAA4999AF77AADB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>667B4F733821A8F32D864D61</string>
-				<string>713D3BE9418F0FD55890FA19</string>
-				<string>592AB2EF7161A6CADE271118</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ROSwipenger-PureLayout</string>
-			<key>productName</key>
-			<string>Pods-ROSwipenger-PureLayout</string>
-			<key>productReference</key>
-			<string>38E02CF74783361257424252</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7250FB0BEDFD1CCF7D31D4E0</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C2CE51DBA79494D286AACB1E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>E959F4C518BBD3C131D47E6A</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-PureLayout</string>
-		</dict>
-		<key>7293065F5FB000D289B407BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSLayoutConstraint+PureLayout.h</string>
-			<key>path</key>
-			<string>Source/NSLayoutConstraint+PureLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>741FAE97FD1FE4E3DFBFA5A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>296B242A84B584880439F205</string>
-				<string>B5FAEAC3AF31ECD76F5820EC</string>
-				<string>2A95463151861A47A609760E</string>
-				<string>18B1DE2470CFF5C490F0EC20</string>
-				<string>F4A75E081B5F0B6071510332</string>
-				<string>E7EDC9A75A34780B4B8DF75D</string>
-				<string>A946C71D621C3E712287AA76</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C91E1F6815D0541FFD325E6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C1032AD27DE41DC9AF714764</string>
-				<string>939AE7DCE04CE709AEDC6837</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7E5D9B16DFF6B0F1C3F73923</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-PureLayout</string>
-			<key>target</key>
-			<string>E959F4C518BBD3C131D47E6A</string>
-			<key>targetProxy</key>
-			<string>484E54079905F6BC5868D9A7</string>
-		</dict>
-		<key>7FD60496166FC51DDAC7823D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C2CE51DBA79494D286AACB1E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>BDEDDF57E8753D4B5C94F2BF</string>
-			<key>remoteInfo</key>
-			<string>Pods-ROSwipenger-ROSwipenger</string>
-		</dict>
-		<key>82E14D9A16D1B850B004A657</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30BAF9BDE4E881E1CD614F84</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>83B9265CF45CB96506A08AD5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>60CB264D18EA51FB8DFFE9C2</string>
-				<string>36897367F846637EDBDE834F</string>
-				<string>3F84D2E6BAA7D897C8BC986E</string>
-				<string>96ED2CAF41187F105EB29622</string>
-				<string>F3866C2209160F6C26609783</string>
-				<string>0364FF4DEE85177BFF8579BE</string>
-				<string>9B3AC3C204771A1A28F8FCD0</string>
-				<string>1717AC1F4A41AAD0F3399A11</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-ROSwipenger-ROSwipenger</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85D43F463124AB1E1DCBC7F1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>D65101CBACC3BF4E3CA6307B</string>
-				<string>A92842C28AB6035B2C6B4E21</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>879C4D689BCFC4BD9713ABF9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-PureLayout-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-PureLayout/Pods-Tests-PureLayout-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87BBC32EAB624F25DD4BE3A8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F9CE175319C4AD8A6B3FC35D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>87C38A16A7C515400A4EFEBC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4940AE48E59DAAF3E8C39C9E</string>
-				<string>44E97C736AB611ED9C1444FE</string>
-				<string>38E02CF74783361257424252</string>
-				<string>F77F3C26B01C8C5CB0C12EB2</string>
-				<string>275CC61CA6850C5F1906CA3A</string>
-				<string>EF84E6F6455726BD73655D42</string>
-				<string>BB1DA1B6958E30AF560729EB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89E26FFDB6AFDC0AC3F52F0E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>36897367F846637EDBDE834F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ROSwipenger-ROSwipenger/Pods-ROSwipenger-ROSwipenger-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8D1BFD66809EF61809699124</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSArray+PureLayout.m</string>
-			<key>path</key>
-			<string>Source/NSArray+PureLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D7387A5D1768F442B7C5394</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FCD1CA57749BA40957A83A9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E4670F19B3BA0DC211DF355</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9197DA5586890F7780495896</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>939AE7DCE04CE709AEDC6837</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A58022B6D7D0FA07B9FBC33C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>96ED2CAF41187F105EB29622</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-ROSwipenger-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>991DA4B241BEDF1CD92D3871</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B3AC3C204771A1A28F8FCD0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-ROSwipenger-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D4053FE3284BF264BF079F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30BAF9BDE4E881E1CD614F84</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9D5349FBBB1A795543A03E64</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0364FF4DEE85177BFF8579BE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A2BDA5CDC6B810672DC9E2DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6F9DE84C3F84E42C8B7B1412</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A334395422C7C597B71C41D9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>51F21E91148A62ED06995E22</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A55C7AA3D210F5DF7B92732D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B8329DF828C92D9B349BCF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A58022B6D7D0FA07B9FBC33C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ROSwipenger.m</string>
-			<key>path</key>
-			<string>Pod/Classes/ROSwipenger.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A615B1E065B800CE9A61AA59</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F84D2E6BAA7D897C8BC986E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A621EE66338F33F1B8C233EC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>89E26FFDB6AFDC0AC3F52F0E</string>
-				<string>53FAB8BB3713FA739CEA738E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A92842C28AB6035B2C6B4E21</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C738FDFA5738E4BCC7BD49CB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A946C71D621C3E712287AA76</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9D97F6C9EE878D691D079FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9DE71F2393569E29ECF6CF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C1FA2829009D29CFDC0A12E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AB756734F49B97642ABEF79B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ACEA74D329759E80DE053502</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C2CE51DBA79494D286AACB1E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>56BF129172910D26AF3612F9</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-ROSwipenger</string>
-		</dict>
-		<key>AD84F4EC0304474269554C71</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>B1D3B46AFE6D24BB315BD16F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>ROSwipenger</string>
-			<key>target</key>
-			<string>D10452A7899617CAA2ABFA92</string>
-			<key>targetProxy</key>
-			<string>E523D0A9209E6CB1903A1AD9</string>
-		</dict>
-		<key>B22431CFF5EB5AA2B9B62082</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3FDDD7D4EFB04C0A7CC78849</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B5FAEAC3AF31ECD76F5820EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B6328BE2BD9B18869BB7B08B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-ROSwipenger-ROSwipenger</string>
-			<key>target</key>
-			<string>BDEDDF57E8753D4B5C94F2BF</string>
-			<key>targetProxy</key>
-			<string>7FD60496166FC51DDAC7823D</string>
-		</dict>
-		<key>B6786E5CE806A8DE46456FDE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>350632051375E98BC7795DE0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B9186A71E3185946087EE4F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>350632051375E98BC7795DE0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B921AFE229BE78F1EA87A448</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1DDDECE3D7F30FA3BCB9D0B7</string>
-				<string>2BF02E96B87A8E5FD96D636F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BB1DA1B6958E30AF560729EB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-ROSwipenger.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BDEDDF57E8753D4B5C94F2BF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A621EE66338F33F1B8C233EC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>09668330BC32817173D4B9A5</string>
-				<string>4CCAC05D0E348DAB4EBD0E48</string>
-				<string>27BBEF82DF0797C715F3402A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3271F5D63D9C570CBB7DD508</string>
-				<string>B1D3B46AFE6D24BB315BD16F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ROSwipenger-ROSwipenger</string>
-			<key>productName</key>
-			<string>Pods-ROSwipenger-ROSwipenger</string>
-			<key>productReference</key>
-			<string>F77F3C26B01C8C5CB0C12EB2</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>BE01DC96D8E088BDD7E1258D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>16C7B3C4CAE0C8F02114408D</string>
-				<string>F39DC781BEB667FCB93E04D4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BF203B642B8E8C84D97E4182</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PureLayoutDefines.h</string>
-			<key>path</key>
-			<string>Source/PureLayoutDefines.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF52D43EB8D9D86326B26A91</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2B8329DF828C92D9B349BCF2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1032AD27DE41DC9AF714764</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B3AC3C204771A1A28F8FCD0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C1FA2829009D29CFDC0A12E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSLayoutConstraint+PureLayout.m</string>
-			<key>path</key>
-			<string>Source/NSLayoutConstraint+PureLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C294B99EABFF9FC9435D1FF3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D1BFD66809EF61809699124</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C2CE51DBA79494D286AACB1E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>BE01DC96D8E088BDD7E1258D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>00C8879C554EBBD11D6057B4</string>
-			<key>productRefGroup</key>
-			<string>87C38A16A7C515400A4EFEBC</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>4B86302AFBFD4C13F74FBB1D</string>
-				<string>717DFD31F39A4B3EDF1AF57C</string>
-				<string>BDEDDF57E8753D4B5C94F2BF</string>
-				<string>C66447522646DDB9E5C1C96C</string>
-				<string>E959F4C518BBD3C131D47E6A</string>
-				<string>56BF129172910D26AF3612F9</string>
-				<string>D10452A7899617CAA2ABFA92</string>
-			</array>
-		</dict>
-		<key>C3C66A7EF15AC84AEFFE1D63</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A58022B6D7D0FA07B9FBC33C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C4335D96F5A2208BA8BF666F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C2CE51DBA79494D286AACB1E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>717DFD31F39A4B3EDF1AF57C</string>
-			<key>remoteInfo</key>
-			<string>Pods-ROSwipenger-PureLayout</string>
-		</dict>
-		<key>C66447522646DDB9E5C1C96C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2638C924F74791E87B4B50A0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B22431CFF5EB5AA2B9B62082</string>
-				<string>87BBC32EAB624F25DD4BE3A8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7E5D9B16DFF6B0F1C3F73923</string>
-				<string>226C10BD3F08D8134090168C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>275CC61CA6850C5F1906CA3A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>C738FDFA5738E4BCC7BD49CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D10452A7899617CAA2ABFA92</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B921AFE229BE78F1EA87A448</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8E4670F19B3BA0DC211DF355</string>
-				<string>E851AA79C702B7608FDCDEEF</string>
-				<string>DFC97E8FFD66685E3428846E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>ROSwipenger</string>
-			<key>productName</key>
-			<string>ROSwipenger</string>
-			<key>productReference</key>
-			<string>4940AE48E59DAAF3E8C39C9E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>D2F23FF3E9CEE71A18E16AC6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E75931F5338A4C03198C3922</string>
-				<string>9D4053FE3284BF264BF079F5</string>
-				<string>5C1C80AF3C7696A90FEEEC32</string>
-				<string>372F644FFAC1E32CDDA979A1</string>
-				<string>63988CE5BB57A73DCA1726DE</string>
-				<string>F6CD88D04531A04116CF736B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D3A7053EE539C70773EA1FA1</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C2CE51DBA79494D286AACB1E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>717DFD31F39A4B3EDF1AF57C</string>
-			<key>remoteInfo</key>
-			<string>Pods-ROSwipenger-PureLayout</string>
-		</dict>
-		<key>D65101CBACC3BF4E3CA6307B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A9D97F6C9EE878D691D079FE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>D8652DEE3DCFB5FFBDD609C8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6FCF6A83FF8E6561DBC21D8A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ROSwipenger-PureLayout/Pods-ROSwipenger-PureLayout-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>DAB3D9AA0658591972E0C942</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C1FA2829009D29CFDC0A12E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DBBFD21F543F21CAD9CA928F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D1BFD66809EF61809699124</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DFC97E8FFD66685E3428846E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E523D0A9209E6CB1903A1AD9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>C2CE51DBA79494D286AACB1E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D10452A7899617CAA2ABFA92</string>
-			<key>remoteInfo</key>
-			<string>ROSwipenger</string>
-		</dict>
-		<key>E75931F5338A4C03198C3922</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4E19A817C8F3C9B07B7A813</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E7EDC9A75A34780B4B8DF75D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E851AA79C702B7608FDCDEEF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E959F4C518BBD3C131D47E6A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3EB9632291595E969E1B6888</string>
-			<key>buildPhases</key>
-			<array>
-				<string>20CB6F6560699B9A04A2B79E</string>
-				<string>49F1FA3A416E12C81BE540F3</string>
-				<string>D2F23FF3E9CEE71A18E16AC6</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-PureLayout</string>
-			<key>productName</key>
-			<string>Pods-Tests-PureLayout</string>
-			<key>productReference</key>
-			<string>EF84E6F6455726BD73655D42</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>E9FE0DF22554860F6F219ACA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>879C4D689BCFC4BD9713ABF9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EA2AE66A6FC3966AA330CD2E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B8329DF828C92D9B349BCF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EE711A92314D58B1395AC6B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF84E6F6455726BD73655D42</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-PureLayout.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EFA25190A2DD6A43B60DAC87</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-ROSwipenger-PureLayout</string>
-			<key>target</key>
-			<string>717DFD31F39A4B3EDF1AF57C</string>
-			<key>targetProxy</key>
-			<string>D3A7053EE539C70773EA1FA1</string>
-		</dict>
-		<key>F3866C2209160F6C26609783</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-ROSwipenger.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F39DC781BEB667FCB93E04D4</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F4A75E081B5F0B6071510332</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4E19A817C8F3C9B07B7A813</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALView+PureLayout.h</string>
-			<key>path</key>
-			<string>Source/ALView+PureLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6970FA9770A7CC925E649DA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F6D307CFCEC936851FA43FB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F6CD88D04531A04116CF736B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF203B642B8E8C84D97E4182</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F6D307CFCEC936851FA43FB0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ROSwipenger.h</string>
-			<key>path</key>
-			<string>Pod/Classes/ROSwipenger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F77F3C26B01C8C5CB0C12EB2</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ROSwipenger-ROSwipenger.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F7F52972576C81CF7F8C5A1D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-PureLayout</string>
-			<key>target</key>
-			<string>E959F4C518BBD3C131D47E6A</string>
-			<key>targetProxy</key>
-			<string>7250FB0BEDFD1CCF7D31D4E0</string>
-		</dict>
-		<key>F9C1EF443CCA82B81872F088</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PureLayout+Internal.h</string>
-			<key>path</key>
-			<string>Source/PureLayout+Internal.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F9CE175319C4AD8A6B3FC35D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B8329DF828C92D9B349BCF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FA76EB5310EA4B20B6FA43B0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>599BFF4E7BE7A00CF12393AC</string>
-				<string>9197DA5586890F7780495896</string>
-				<string>AB756734F49B97642ABEF79B</string>
-				<string>EE711A92314D58B1395AC6B1</string>
-				<string>991DA4B241BEDF1CD92D3871</string>
-				<string>A9D97F6C9EE878D691D079FE</string>
-				<string>C738FDFA5738E4BCC7BD49CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-ROSwipenger</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-ROSwipenger</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCBD94928A6A9A5FB4B050D6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4E19A817C8F3C9B07B7A813</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FCD1CA57749BA40957A83A9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ROSwipenger-PureLayout-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEC769C63777E60229BF846F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EA2AE66A6FC3966AA330CD2E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>C2CE51DBA79494D286AACB1E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CA724967AAB685C42FD93B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
+		0DB01E12F128328449886D28 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47441318B7B964C9CA3B8C57 /* PureLayout+Internal.h */; };
+		3040FF4E0C556F93180D5E58 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA045F75803701CA9720E31 /* NSArray+PureLayout.h */; };
+		34317349F68B437015E36FD7 /* Pods-Tests-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7074D26231B13DB0CFB89D /* Pods-Tests-PureLayout-dummy.m */; };
+		393B489147E88064CE906133 /* Pods-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AD011DC15BA73E35909135 /* Pods-ROSwipenger-dummy.m */; };
+		41E7690228C09D9478DEB493 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E04033F671544511257D9 /* NSLayoutConstraint+PureLayout.m */; };
+		45B1EF1A5197EE972ADDF11B /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A988D730F1112AE87636B /* PureLayoutDefines.h */; };
+		46F4C1164788F97BA1B9DF93 /* Pods-ROSwipenger-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 005CB128D3789D72EA99C01F /* Pods-ROSwipenger-ROSwipenger-dummy.m */; };
+		4EF6391B862B14AA126F64A7 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E04033F671544511257D9 /* NSLayoutConstraint+PureLayout.m */; };
+		52DA1695A4FA509E92BDECAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
+		5DC6892C717D902884969957 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 799DBDA0AF4E8832554CA4DC /* ALView+PureLayout.h */; };
+		5F9ED9DB4D485D1916E4D18B /* ROSwipenger.h in Headers */ = {isa = PBXBuildFile; fileRef = CB99AE5FD20FE7DE9C179B7E /* ROSwipenger.h */; };
+		673447120E22903E6C01EA58 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 799DBDA0AF4E8832554CA4DC /* ALView+PureLayout.h */; };
+		6B34B99E82F503CFB8CF3205 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E07CE310AC0C726562FAAB4D /* NSArray+PureLayout.m */; };
+		7B8CF6F4A53CBF8E9F702C80 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47441318B7B964C9CA3B8C57 /* PureLayout+Internal.h */; };
+		8A03D321A1DAF29E685B06EC /* Pods-ROSwipenger-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04553FBA6036F936F67B467 /* Pods-ROSwipenger-PureLayout-dummy.m */; };
+		8D3216C44C5918D8929C208F /* ROSwipenger.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3EAAD6874E44FDCA74AA26 /* ROSwipenger.m */; };
+		8D6A6B11C8F299DFE5777CF5 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 98390D8827142B20A5C47BF0 /* NSLayoutConstraint+PureLayout.h */; };
+		9E8652F9B6E825E608214ED4 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09F67E7A5CCF700DE1A38 /* ALView+PureLayout.m */; };
+		A7410B3C76609D484CD75233 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 98390D8827142B20A5C47BF0 /* NSLayoutConstraint+PureLayout.h */; };
+		A8E59540E8584616CCB29106 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5226BBFE4A2ACC3E556242 /* PureLayout.h */; };
+		B9AE106B8A07D7C7781D6378 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09F67E7A5CCF700DE1A38 /* ALView+PureLayout.m */; };
+		BBFF924A0CCEF1BB4B3DBDAE /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5226BBFE4A2ACC3E556242 /* PureLayout.h */; };
+		C0229F4E317C75F8E668617C /* ROSwipenger.h in Headers */ = {isa = PBXBuildFile; fileRef = CB99AE5FD20FE7DE9C179B7E /* ROSwipenger.h */; };
+		C0D110EA5237A1F491A17638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
+		C31A0F247CFA8ACED9084519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
+		C41ABD13406937CAC8DBDDA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
+		C679C99B90489F21D2890D78 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA045F75803701CA9720E31 /* NSArray+PureLayout.h */; };
+		C7C9AC919CA267C050CE6A83 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A988D730F1112AE87636B /* PureLayoutDefines.h */; };
+		CCF4E96B3A5E3D5CADB35046 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E07CE310AC0C726562FAAB4D /* NSArray+PureLayout.m */; };
+		D2A1A1F974F480A24570FF16 /* Pods-Tests-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1756308F34E834313F7338AC /* Pods-Tests-ROSwipenger-dummy.m */; };
+		DA78E054FA5B27ACCD9F200D /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 538050A2C210AC42ABB19BA3 /* Pods-Tests-dummy.m */; };
+		E9C3E8B393ED1F6F4746638E /* ROSwipenger.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3EAAD6874E44FDCA74AA26 /* ROSwipenger.m */; };
+		FD6D4DAB8C8A0B4ADA48B4C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F8CB7C3E593E73215F0F256 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C86A3B26D669F57C1DB5638;
+			remoteInfo = "Pods-Tests-PureLayout";
+		};
+		4BE8D3F50A3870392EA29F00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB83DEC10E10C9D420B2969;
+			remoteInfo = "Pods-Tests-ROSwipenger-ROSwipenger";
+		};
+		6E1BF878B7F43AE0F2A4D76B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C86A3B26D669F57C1DB5638;
+			remoteInfo = "Pods-Tests-PureLayout";
+		};
+		A9465DDF606E427243F5E3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AF907C1D86BF82D8EAF44B9;
+			remoteInfo = "Pods-Tests-ROSwipenger";
+		};
+		ACBE80CD553A8E1DAEC7F479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E203995A81CE590445505E4C;
+			remoteInfo = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
+		};
+		B6F008C33356EE3518BFDC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C3D37419769B66D4F4B82D;
+			remoteInfo = "Pods-ROSwipenger-PureLayout";
+		};
+		EE4774D67F1489E855E3174D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C3D37419769B66D4F4B82D;
+			remoteInfo = "Pods-ROSwipenger-PureLayout";
+		};
+		F6943F1677F28CC756B7E917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F65372C5A99B492BBFBE64;
+			remoteInfo = "Pods-ROSwipenger-ROSwipenger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0056F60751FDC43235CB66AF /* Pods-ROSwipenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger.release.xcconfig"; sourceTree = "<group>"; };
+		005CB128D3789D72EA99C01F /* Pods-ROSwipenger-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
+		0D3D75DA877E46B3105EDB70 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		105DD46F4FC6466EAE3BF3FE /* Pods-ROSwipenger-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-environment.h"; sourceTree = "<group>"; };
+		150076B4B97B1B6B44428B0F /* Pods-ROSwipenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger.debug.xcconfig"; sourceTree = "<group>"; };
+		1756308F34E834313F7338AC /* Pods-Tests-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-ROSwipenger-dummy.m"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
+		2394F856B14573D775B92F88 /* Pods-ROSwipenger-ROSwipenger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-ROSwipenger-prefix.pch"; sourceTree = "<group>"; };
+		36402E6154F75DDB1B805A41 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		3815892FF3FD61934712F56B /* libPods-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AD011DC15BA73E35909135 /* Pods-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
+		3F409657D96CD44B63F5F41A /* Pods-ROSwipenger-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		42F8B127B59F9EC4568101C7 /* ROSwipenger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSwipenger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		47441318B7B964C9CA3B8C57 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "Source/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		4FA045F75803701CA9720E31 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "Source/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		52C02556DACED5673C1A4DCA /* libPods-Tests-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538050A2C210AC42ABB19BA3 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		548F4CC61E358D8523336D73 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D20797233C666783AD71355 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		66A1C309711F21AF02B1EF5D /* libPods-Tests-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6751EAD7559E56430048918A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		799DBDA0AF4E8832554CA4DC /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "Source/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		7E5226BBFE4A2ACC3E556242 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = Source/PureLayout.h; sourceTree = "<group>"; };
+		858AE1B9B9252899A373585D /* ROSwipenger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSwipenger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		932FE47D17BEB327E28D98F3 /* Pods-Tests-ROSwipenger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ROSwipenger-Private.xcconfig"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-Private.xcconfig"; sourceTree = "<group>"; };
+		93968F46C4170A6497C590C0 /* Pods-Tests-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PureLayout.xcconfig"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout.xcconfig"; sourceTree = "<group>"; };
+		94FB5718CF52888B241EB44B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98390D8827142B20A5C47BF0 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "Source/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		9D3FC8FE81426E8FEC81618B /* Pods-ROSwipenger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ROSwipenger-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FF835F1DE9809272D2BA8E7 /* Pods-Tests-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PureLayout-Private.xcconfig"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		A510DE7579842092D07ADFEE /* Pods-ROSwipenger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ROSwipenger-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5E4DFBA3976486DE8776AB5 /* Pods-Tests-ROSwipenger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-ROSwipenger-prefix.pch"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch"; sourceTree = "<group>"; };
+		A89E04033F671544511257D9 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "Source/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		A918D747ECB05894C14CEEB0 /* libPods-ROSwipenger-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF267312BC2EC057673A8C5 /* Pods-ROSwipenger-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-PureLayout.xcconfig"; sourceTree = "<group>"; };
+		BA7074D26231B13DB0CFB89D /* Pods-Tests-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PureLayout-dummy.m"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-dummy.m"; sourceTree = "<group>"; };
+		C3F09F67E7A5CCF700DE1A38 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "Source/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		C5ED497A213608B81C81AAB1 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		CB049B74147A485423D5BF67 /* Pods-Tests-ROSwipenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ROSwipenger.xcconfig"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger.xcconfig"; sourceTree = "<group>"; };
+		CB99AE5FD20FE7DE9C179B7E /* ROSwipenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ROSwipenger.h; sourceTree = "<group>"; };
+		CE3EAAD6874E44FDCA74AA26 /* ROSwipenger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ROSwipenger.m; sourceTree = "<group>"; };
+		D04553FBA6036F936F67B467 /* Pods-ROSwipenger-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-PureLayout-dummy.m"; sourceTree = "<group>"; };
+		D8D13DC2E7587C29FC43355F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB5197DA79CA5E9364F25D71 /* Pods-ROSwipenger-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ROSwipenger-resources.sh"; sourceTree = "<group>"; };
+		E07CE310AC0C726562FAAB4D /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "Source/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		E4962A526CDD684ED7E91ED1 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9E2022C7B3D24802D700DD8 /* Pods-ROSwipenger-ROSwipenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-ROSwipenger.xcconfig"; sourceTree = "<group>"; };
+		EA8A988D730F1112AE87636B /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = Source/PureLayoutDefines.h; sourceTree = "<group>"; };
+		EC80EFA00A3528F9EF976A3F /* libPods-ROSwipenger-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6ECA357A264D06CDC8D1178 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F767F80AD478F548B0394FB1 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-ROSwipenger-Private.xcconfig"; sourceTree = "<group>"; };
+		FFCE60057A670BF483D828AF /* Pods-Tests-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PureLayout-prefix.pch"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73045CFDBFED7DF76B41968B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA724967AAB685C42FD93B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCDA2EC350A72BC5BF4AFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DA1695A4FA509E92BDECAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A610C20AAD864326C07316F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D110EA5237A1F491A17638 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C59A3CC540B4951AB954A669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6D4DAB8C8A0B4ADA48B4C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9E44204EE53D295754EDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31A0F247CFA8ACED9084519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65B570F0B032A3FA588442B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41ABD13406937CAC8DBDDA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0C1764A38567D5001FE7C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C4937F5B8AB47C2C3D7E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20642DCD399A93120E60FF35 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB99AE5FD20FE7DE9C179B7E /* ROSwipenger.h */,
+				CE3EAAD6874E44FDCA74AA26 /* ROSwipenger.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27499C604D05DB0C372B6D90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9E2022C7B3D24802D700DD8 /* Pods-ROSwipenger-ROSwipenger.xcconfig */,
+				F767F80AD478F548B0394FB1 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */,
+				005CB128D3789D72EA99C01F /* Pods-ROSwipenger-ROSwipenger-dummy.m */,
+				2394F856B14573D775B92F88 /* Pods-ROSwipenger-ROSwipenger-prefix.pch */,
+				CB049B74147A485423D5BF67 /* Pods-Tests-ROSwipenger.xcconfig */,
+				932FE47D17BEB327E28D98F3 /* Pods-Tests-ROSwipenger-Private.xcconfig */,
+				1756308F34E834313F7338AC /* Pods-Tests-ROSwipenger-dummy.m */,
+				A5E4DFBA3976486DE8776AB5 /* Pods-Tests-ROSwipenger-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ROSwipenger-ROSwipenger";
+			sourceTree = "<group>";
+		};
+		400514DA035C2F0B6522347B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F8B127B59F9EC4568101C7 /* ROSwipenger.bundle */,
+				858AE1B9B9252899A373585D /* ROSwipenger.bundle */,
+				3815892FF3FD61934712F56B /* libPods-ROSwipenger.a */,
+				EC80EFA00A3528F9EF976A3F /* libPods-ROSwipenger-PureLayout.a */,
+				A918D747ECB05894C14CEEB0 /* libPods-ROSwipenger-ROSwipenger.a */,
+				94FB5718CF52888B241EB44B /* libPods-Tests.a */,
+				52C02556DACED5673C1A4DCA /* libPods-Tests-PureLayout.a */,
+				66A1C309711F21AF02B1EF5D /* libPods-Tests-ROSwipenger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559814A54CD51EE3C985B952 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABF267312BC2EC057673A8C5 /* Pods-ROSwipenger-PureLayout.xcconfig */,
+				36402E6154F75DDB1B805A41 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */,
+				D04553FBA6036F936F67B467 /* Pods-ROSwipenger-PureLayout-dummy.m */,
+				3F409657D96CD44B63F5F41A /* Pods-ROSwipenger-PureLayout-prefix.pch */,
+				93968F46C4170A6497C590C0 /* Pods-Tests-PureLayout.xcconfig */,
+				9FF835F1DE9809272D2BA8E7 /* Pods-Tests-PureLayout-Private.xcconfig */,
+				BA7074D26231B13DB0CFB89D /* Pods-Tests-PureLayout-dummy.m */,
+				FFCE60057A670BF483D828AF /* Pods-Tests-PureLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ROSwipenger-PureLayout";
+			sourceTree = "<group>";
+		};
+		63D4092C5DFEE99C0BC28E51 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				548F4CC61E358D8523336D73 /* Pods-Tests-acknowledgements.markdown */,
+				E4962A526CDD684ED7E91ED1 /* Pods-Tests-acknowledgements.plist */,
+				538050A2C210AC42ABB19BA3 /* Pods-Tests-dummy.m */,
+				C5ED497A213608B81C81AAB1 /* Pods-Tests-environment.h */,
+				5D20797233C666783AD71355 /* Pods-Tests-resources.sh */,
+				F6ECA357A264D06CDC8D1178 /* Pods-Tests.debug.xcconfig */,
+				6751EAD7559E56430048918A /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		6753D658600628B683E39CF0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				20642DCD399A93120E60FF35 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		718E4391F347CC9B91FB9A05 = {
+			isa = PBXGroup;
+			children = (
+				0D3D75DA877E46B3105EDB70 /* Podfile */,
+				E6A2B1BB1BC26BB208539520 /* Development Pods */,
+				C19639164FB886E83E4117AB /* Frameworks */,
+				8DB18E77BAAD39CD253BF58B /* Pods */,
+				400514DA035C2F0B6522347B /* Products */,
+				A81ECE20187B653EAE47D8A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB18E77BAAD39CD253BF58B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5098D1E55311123DFE102A1 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		925987068F25B1744A4A1896 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D8D13DC2E7587C29FC43355F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A81ECE20187B653EAE47D8A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC2DF45B1EC4E1CE286920C /* Pods-ROSwipenger */,
+				63D4092C5DFEE99C0BC28E51 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C19639164FB886E83E4117AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				925987068F25B1744A4A1896 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6A2B1BB1BC26BB208539520 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7766F041315CBD0A1086FA3 /* ROSwipenger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E7766F041315CBD0A1086FA3 /* ROSwipenger */ = {
+			isa = PBXGroup;
+			children = (
+				6753D658600628B683E39CF0 /* Pod */,
+				27499C604D05DB0C372B6D90 /* Support Files */,
+			);
+			name = ROSwipenger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ECC2DF45B1EC4E1CE286920C /* Pods-ROSwipenger */ = {
+			isa = PBXGroup;
+			children = (
+				9D3FC8FE81426E8FEC81618B /* Pods-ROSwipenger-acknowledgements.markdown */,
+				A510DE7579842092D07ADFEE /* Pods-ROSwipenger-acknowledgements.plist */,
+				38AD011DC15BA73E35909135 /* Pods-ROSwipenger-dummy.m */,
+				105DD46F4FC6466EAE3BF3FE /* Pods-ROSwipenger-environment.h */,
+				DB5197DA79CA5E9364F25D71 /* Pods-ROSwipenger-resources.sh */,
+				150076B4B97B1B6B44428B0F /* Pods-ROSwipenger.debug.xcconfig */,
+				0056F60751FDC43235CB66AF /* Pods-ROSwipenger.release.xcconfig */,
+			);
+			name = "Pods-ROSwipenger";
+			path = "Target Support Files/Pods-ROSwipenger";
+			sourceTree = "<group>";
+		};
+		F5098D1E55311123DFE102A1 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				799DBDA0AF4E8832554CA4DC /* ALView+PureLayout.h */,
+				C3F09F67E7A5CCF700DE1A38 /* ALView+PureLayout.m */,
+				4FA045F75803701CA9720E31 /* NSArray+PureLayout.h */,
+				E07CE310AC0C726562FAAB4D /* NSArray+PureLayout.m */,
+				98390D8827142B20A5C47BF0 /* NSLayoutConstraint+PureLayout.h */,
+				A89E04033F671544511257D9 /* NSLayoutConstraint+PureLayout.m */,
+				7E5226BBFE4A2ACC3E556242 /* PureLayout.h */,
+				47441318B7B964C9CA3B8C57 /* PureLayout+Internal.h */,
+				EA8A988D730F1112AE87636B /* PureLayoutDefines.h */,
+				559814A54CD51EE3C985B952 /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3747AE6E009AFA1B46FFFF29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0229F4E317C75F8E668617C /* ROSwipenger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C10E141F03F1C913F9BEE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9ED9DB4D485D1916E4D18B /* ROSwipenger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0E693D35E456BF68FDECF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673447120E22903E6C01EA58 /* ALView+PureLayout.h in Headers */,
+				C679C99B90489F21D2890D78 /* NSArray+PureLayout.h in Headers */,
+				8D6A6B11C8F299DFE5777CF5 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				7B8CF6F4A53CBF8E9F702C80 /* PureLayout+Internal.h in Headers */,
+				BBFF924A0CCEF1BB4B3DBDAE /* PureLayout.h in Headers */,
+				45B1EF1A5197EE972ADDF11B /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF79B89435363C612F37EDBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC6892C717D902884969957 /* ALView+PureLayout.h in Headers */,
+				3040FF4E0C556F93180D5E58 /* NSArray+PureLayout.h in Headers */,
+				A7410B3C76609D484CD75233 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				0DB01E12F128328449886D28 /* PureLayout+Internal.h in Headers */,
+				A8E59540E8584616CCB29106 /* PureLayout.h in Headers */,
+				C7C9AC919CA267C050CE6A83 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C86A3B26D669F57C1DB5638 /* Pods-Tests-PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9410618B84EC596E79DF6650 /* Build configuration list for PBXNativeTarget "Pods-Tests-PureLayout" */;
+			buildPhases = (
+				76BBCD1D62F52906120262CE /* Sources */,
+				73045CFDBFED7DF76B41968B /* Frameworks */,
+				7E0E693D35E456BF68FDECF1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-PureLayout";
+			productName = "Pods-Tests-PureLayout";
+			productReference = 52C02556DACED5673C1A4DCA /* libPods-Tests-PureLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8AF907C1D86BF82D8EAF44B9 /* Pods-Tests-ROSwipenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6FE685748E667B532BDF7C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger" */;
+			buildPhases = (
+				7F70E01F140661A2399A9AED /* Sources */,
+				CC9E44204EE53D295754EDFF /* Frameworks */,
+				57C10E141F03F1C913F9BEE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83EEB17405A13963E86AD06C /* PBXTargetDependency */,
+				4255192EDAAF751F219F35E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-ROSwipenger";
+			productName = "Pods-Tests-ROSwipenger";
+			productReference = 66A1C309711F21AF02B1EF5D /* libPods-Tests-ROSwipenger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B8C3D37419769B66D4F4B82D /* Pods-ROSwipenger-PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375689604DEA91BF07C77A2E /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-PureLayout" */;
+			buildPhases = (
+				820B8291B857B5698253D0E7 /* Sources */,
+				A610C20AAD864326C07316F2 /* Frameworks */,
+				CF79B89435363C612F37EDBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ROSwipenger-PureLayout";
+			productName = "Pods-ROSwipenger-PureLayout";
+			productReference = EC80EFA00A3528F9EF976A3F /* libPods-ROSwipenger-PureLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7F65372C5A99B492BBFBE64 /* Pods-ROSwipenger-ROSwipenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09254AC6655EF4B7A5E1249 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger" */;
+			buildPhases = (
+				8523776AA566B3C2BA762C84 /* Sources */,
+				7BCDA2EC350A72BC5BF4AFAF /* Frameworks */,
+				3747AE6E009AFA1B46FFFF29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				649C0366904C10C9A20DA410 /* PBXTargetDependency */,
+				F9F3B14E06D811FF269DE5FD /* PBXTargetDependency */,
+			);
+			name = "Pods-ROSwipenger-ROSwipenger";
+			productName = "Pods-ROSwipenger-ROSwipenger";
+			productReference = A918D747ECB05894C14CEEB0 /* libPods-ROSwipenger-ROSwipenger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C8C096ED5FEE03EACF281534 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168CC34FC2B53B8C407C63C2 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				1ABE983A3D747A4BA647ECDF /* Sources */,
+				D65B570F0B032A3FA588442B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D0D0C50DE4CA4DECD9F1722 /* PBXTargetDependency */,
+				BA11B2719522AE8244A145A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 94FB5718CF52888B241EB44B /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBB83DEC10E10C9D420B2969 /* Pods-Tests-ROSwipenger-ROSwipenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0A8B7994AE83F84E3D63BE /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger-ROSwipenger" */;
+			buildPhases = (
+				1A03C809FF48E05605436F8D /* Sources */,
+				EE0C1764A38567D5001FE7C5 /* Frameworks */,
+				024A3F2E4E1DB7BCE9CBBE1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-ROSwipenger-ROSwipenger";
+			productName = "Pods-Tests-ROSwipenger-ROSwipenger";
+			productReference = 42F8B127B59F9EC4568101C7 /* ROSwipenger.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E203995A81CE590445505E4C /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896D494C6FEEF0F029190073 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger-ROSwipenger" */;
+			buildPhases = (
+				3E9228CD7E725B471FE3924B /* Sources */,
+				F2C4937F5B8AB47C2C3D7E3D /* Frameworks */,
+				9BD821F7984769399130A95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
+			productName = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
+			productReference = 858AE1B9B9252899A373585D /* ROSwipenger.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EF66C0471BB6E14396502EC3 /* Pods-ROSwipenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE8979C182DB7BD52D2148B /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger" */;
+			buildPhases = (
+				E572AC9BDABF83B599B66053 /* Sources */,
+				C59A3CC540B4951AB954A669 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC46F1AE3E77616FAD0EF05 /* PBXTargetDependency */,
+				A43E6D0D3354C5FAF37B96DD /* PBXTargetDependency */,
+			);
+			name = "Pods-ROSwipenger";
+			productName = "Pods-ROSwipenger";
+			productReference = 3815892FF3FD61934712F56B /* libPods-ROSwipenger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72E733CE85620B83BAFE108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 8B5494B3F43503E0B0C40CD7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 718E4391F347CC9B91FB9A05;
+			productRefGroup = 400514DA035C2F0B6522347B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF66C0471BB6E14396502EC3 /* Pods-ROSwipenger */,
+				B8C3D37419769B66D4F4B82D /* Pods-ROSwipenger-PureLayout */,
+				C7F65372C5A99B492BBFBE64 /* Pods-ROSwipenger-ROSwipenger */,
+				E203995A81CE590445505E4C /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */,
+				C8C096ED5FEE03EACF281534 /* Pods-Tests */,
+				3C86A3B26D669F57C1DB5638 /* Pods-Tests-PureLayout */,
+				8AF907C1D86BF82D8EAF44B9 /* Pods-Tests-ROSwipenger */,
+				CBB83DEC10E10C9D420B2969 /* Pods-Tests-ROSwipenger-ROSwipenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		024A3F2E4E1DB7BCE9CBBE1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD821F7984769399130A95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A03C809FF48E05605436F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ABE983A3D747A4BA647ECDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA78E054FA5B27ACCD9F200D /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9228CD7E725B471FE3924B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76BBCD1D62F52906120262CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8652F9B6E825E608214ED4 /* ALView+PureLayout.m in Sources */,
+				CCF4E96B3A5E3D5CADB35046 /* NSArray+PureLayout.m in Sources */,
+				41E7690228C09D9478DEB493 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				34317349F68B437015E36FD7 /* Pods-Tests-PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F70E01F140661A2399A9AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A1A1F974F480A24570FF16 /* Pods-Tests-ROSwipenger-dummy.m in Sources */,
+				8D3216C44C5918D8929C208F /* ROSwipenger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820B8291B857B5698253D0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AE106B8A07D7C7781D6378 /* ALView+PureLayout.m in Sources */,
+				6B34B99E82F503CFB8CF3205 /* NSArray+PureLayout.m in Sources */,
+				4EF6391B862B14AA126F64A7 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				8A03D321A1DAF29E685B06EC /* Pods-ROSwipenger-PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8523776AA566B3C2BA762C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F4C1164788F97BA1B9DF93 /* Pods-ROSwipenger-ROSwipenger-dummy.m in Sources */,
+				E9C3E8B393ED1F6F4746638E /* ROSwipenger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E572AC9BDABF83B599B66053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393B489147E88064CE906133 /* Pods-ROSwipenger-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC46F1AE3E77616FAD0EF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ROSwipenger-PureLayout";
+			target = B8C3D37419769B66D4F4B82D /* Pods-ROSwipenger-PureLayout */;
+			targetProxy = B6F008C33356EE3518BFDC9A /* PBXContainerItemProxy */;
+		};
+		4255192EDAAF751F219F35E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-ROSwipenger-ROSwipenger";
+			target = CBB83DEC10E10C9D420B2969 /* Pods-Tests-ROSwipenger-ROSwipenger */;
+			targetProxy = 4BE8D3F50A3870392EA29F00 /* PBXContainerItemProxy */;
+		};
+		649C0366904C10C9A20DA410 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ROSwipenger-PureLayout";
+			target = B8C3D37419769B66D4F4B82D /* Pods-ROSwipenger-PureLayout */;
+			targetProxy = EE4774D67F1489E855E3174D /* PBXContainerItemProxy */;
+		};
+		83EEB17405A13963E86AD06C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PureLayout";
+			target = 3C86A3B26D669F57C1DB5638 /* Pods-Tests-PureLayout */;
+			targetProxy = 1F8CB7C3E593E73215F0F256 /* PBXContainerItemProxy */;
+		};
+		9D0D0C50DE4CA4DECD9F1722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PureLayout";
+			target = 3C86A3B26D669F57C1DB5638 /* Pods-Tests-PureLayout */;
+			targetProxy = 6E1BF878B7F43AE0F2A4D76B /* PBXContainerItemProxy */;
+		};
+		A43E6D0D3354C5FAF37B96DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ROSwipenger-ROSwipenger";
+			target = C7F65372C5A99B492BBFBE64 /* Pods-ROSwipenger-ROSwipenger */;
+			targetProxy = F6943F1677F28CC756B7E917 /* PBXContainerItemProxy */;
+		};
+		BA11B2719522AE8244A145A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-ROSwipenger";
+			target = 8AF907C1D86BF82D8EAF44B9 /* Pods-Tests-ROSwipenger */;
+			targetProxy = A9465DDF606E427243F5E3F9 /* PBXContainerItemProxy */;
+		};
+		F9F3B14E06D811FF269DE5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
+			target = E203995A81CE590445505E4C /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */;
+			targetProxy = ACBE80CD553A8E1DAEC7F479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001E4C1D354F8AC9894498A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		145E6C2A02D584E5A4984A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF835F1DE9809272D2BA8E7 /* Pods-Tests-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4B284ADFFA823F081EACE587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150076B4B97B1B6B44428B0F /* Pods-ROSwipenger.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F3AE09B1956D328F38487FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932FE47D17BEB327E28D98F3 /* Pods-Tests-ROSwipenger-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		57D4358B3CA419BD4181760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0056F60751FDC43235CB66AF /* Pods-ROSwipenger.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6510334D3C44940C929A86FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ROSwipenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		671BB23AD632DA05487716AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ROSwipenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6E644CDCF90F456099BB5D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6751EAD7559E56430048918A /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7046039042B6BD81FAA0FD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ROSwipenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7AA0C4815C560512A6A71BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932FE47D17BEB327E28D98F3 /* Pods-Tests-ROSwipenger-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E8201B36B090E1AAC12C2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945884A266090DD7CCBD846C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F767F80AD478F548B0394FB1 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-ROSwipenger/Pods-ROSwipenger-ROSwipenger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B4C3AC9D88181D4ADAF0EBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF835F1DE9809272D2BA8E7 /* Pods-Tests-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CB0E5A766D3079C619E833E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36402E6154F75DDB1B805A41 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-PureLayout/Pods-ROSwipenger-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D0815254402463A71C576C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36402E6154F75DDB1B805A41 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-PureLayout/Pods-ROSwipenger-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA882113DDB1FBF452DB0099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6ECA357A264D06CDC8D1178 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F48FDD641509D9F1CB04780F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ROSwipenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FCB16587972B5865E5656702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F767F80AD478F548B0394FB1 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-ROSwipenger/Pods-ROSwipenger-ROSwipenger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168CC34FC2B53B8C407C63C2 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA882113DDB1FBF452DB0099 /* Debug */,
+				6E644CDCF90F456099BB5D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375689604DEA91BF07C77A2E /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0E5A766D3079C619E833E7 /* Debug */,
+				D0815254402463A71C576C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896D494C6FEEF0F029190073 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger-ROSwipenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671BB23AD632DA05487716AE /* Debug */,
+				7046039042B6BD81FAA0FD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5494B3F43503E0B0C40CD7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001E4C1D354F8AC9894498A3 /* Debug */,
+				7E8201B36B090E1AAC12C2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9410618B84EC596E79DF6650 /* Build configuration list for PBXNativeTarget "Pods-Tests-PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C3AC9D88181D4ADAF0EBD6 /* Debug */,
+				145E6C2A02D584E5A4984A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09254AC6655EF4B7A5E1249 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB16587972B5865E5656702 /* Debug */,
+				945884A266090DD7CCBD846C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6FE685748E667B532BDF7C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3AE09B1956D328F38487FF /* Debug */,
+				7AA0C4815C560512A6A71BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0A8B7994AE83F84E3D63BE /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger-ROSwipenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6510334D3C44940C929A86FB /* Debug */,
+				F48FDD641509D9F1CB04780F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE8979C182DB7BD52D2148B /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B284ADFFA823F081EACE587 /* Debug */,
+				57D4358B3CA419BD4181760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72E733CE85620B83BAFE108 /* Project object */;
+}
