@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/ROSwipenger.svg?style=flat)](http://cocoadocs.org/docsets/ROSwipenger)
 [![Platform](https://img.shields.io/cocoapods/p/ROSwipenger.svg?style=flat)](http://cocoadocs.org/docsets/ROSwipenger)
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=btf7v6Glbg8)
+![alt text](https://github.com/Rounded/ROSwipenger/demo.gif "Logo Title Text 1")
 
 ## Usage
 
