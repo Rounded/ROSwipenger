@@ -1,6 +1,6 @@
 {
   "name": "ROSwipenger",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "summary": "Lazy loading sliding page view controller!",
   "description": "                       This is a sliding page view controller that lazily loads in the child view controllers.\n",
   "homepage": "https://github.com/Rounded/ROSwipenger",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/Rounded/ROSwipenger.git",
-    "tag": "0.0.6"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "7.0"

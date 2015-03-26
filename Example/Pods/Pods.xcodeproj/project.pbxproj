@@ -7,212 +7,212 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CA724967AAB685C42FD93B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
-		0DB01E12F128328449886D28 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47441318B7B964C9CA3B8C57 /* PureLayout+Internal.h */; };
-		3040FF4E0C556F93180D5E58 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA045F75803701CA9720E31 /* NSArray+PureLayout.h */; };
-		34317349F68B437015E36FD7 /* Pods-Tests-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7074D26231B13DB0CFB89D /* Pods-Tests-PureLayout-dummy.m */; };
-		393B489147E88064CE906133 /* Pods-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AD011DC15BA73E35909135 /* Pods-ROSwipenger-dummy.m */; };
-		41E7690228C09D9478DEB493 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E04033F671544511257D9 /* NSLayoutConstraint+PureLayout.m */; };
-		45B1EF1A5197EE972ADDF11B /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A988D730F1112AE87636B /* PureLayoutDefines.h */; };
-		46F4C1164788F97BA1B9DF93 /* Pods-ROSwipenger-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 005CB128D3789D72EA99C01F /* Pods-ROSwipenger-ROSwipenger-dummy.m */; };
-		4EF6391B862B14AA126F64A7 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A89E04033F671544511257D9 /* NSLayoutConstraint+PureLayout.m */; };
-		52DA1695A4FA509E92BDECAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
-		5DC6892C717D902884969957 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 799DBDA0AF4E8832554CA4DC /* ALView+PureLayout.h */; };
-		5F9ED9DB4D485D1916E4D18B /* ROSwipenger.h in Headers */ = {isa = PBXBuildFile; fileRef = CB99AE5FD20FE7DE9C179B7E /* ROSwipenger.h */; };
-		673447120E22903E6C01EA58 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 799DBDA0AF4E8832554CA4DC /* ALView+PureLayout.h */; };
-		6B34B99E82F503CFB8CF3205 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E07CE310AC0C726562FAAB4D /* NSArray+PureLayout.m */; };
-		7B8CF6F4A53CBF8E9F702C80 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 47441318B7B964C9CA3B8C57 /* PureLayout+Internal.h */; };
-		8A03D321A1DAF29E685B06EC /* Pods-ROSwipenger-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D04553FBA6036F936F67B467 /* Pods-ROSwipenger-PureLayout-dummy.m */; };
-		8D3216C44C5918D8929C208F /* ROSwipenger.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3EAAD6874E44FDCA74AA26 /* ROSwipenger.m */; };
-		8D6A6B11C8F299DFE5777CF5 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 98390D8827142B20A5C47BF0 /* NSLayoutConstraint+PureLayout.h */; };
-		9E8652F9B6E825E608214ED4 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09F67E7A5CCF700DE1A38 /* ALView+PureLayout.m */; };
-		A7410B3C76609D484CD75233 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 98390D8827142B20A5C47BF0 /* NSLayoutConstraint+PureLayout.h */; };
-		A8E59540E8584616CCB29106 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5226BBFE4A2ACC3E556242 /* PureLayout.h */; };
-		B9AE106B8A07D7C7781D6378 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F09F67E7A5CCF700DE1A38 /* ALView+PureLayout.m */; };
-		BBFF924A0CCEF1BB4B3DBDAE /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E5226BBFE4A2ACC3E556242 /* PureLayout.h */; };
-		C0229F4E317C75F8E668617C /* ROSwipenger.h in Headers */ = {isa = PBXBuildFile; fileRef = CB99AE5FD20FE7DE9C179B7E /* ROSwipenger.h */; };
-		C0D110EA5237A1F491A17638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
-		C31A0F247CFA8ACED9084519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
-		C41ABD13406937CAC8DBDDA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
-		C679C99B90489F21D2890D78 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA045F75803701CA9720E31 /* NSArray+PureLayout.h */; };
-		C7C9AC919CA267C050CE6A83 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A988D730F1112AE87636B /* PureLayoutDefines.h */; };
-		CCF4E96B3A5E3D5CADB35046 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E07CE310AC0C726562FAAB4D /* NSArray+PureLayout.m */; };
-		D2A1A1F974F480A24570FF16 /* Pods-Tests-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1756308F34E834313F7338AC /* Pods-Tests-ROSwipenger-dummy.m */; };
-		DA78E054FA5B27ACCD9F200D /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 538050A2C210AC42ABB19BA3 /* Pods-Tests-dummy.m */; };
-		E9C3E8B393ED1F6F4746638E /* ROSwipenger.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3EAAD6874E44FDCA74AA26 /* ROSwipenger.m */; };
-		FD6D4DAB8C8A0B4ADA48B4C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D13DC2E7587C29FC43355F /* Foundation.framework */; };
+		0031250AEB1C498EB021252C /* ROSwipenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9852F2A4F01F4ED1124C26AF /* ROSwipenger.m */; };
+		034505A76F35F2F33DFDBBA7 /* ROSwipenger.h in Headers */ = {isa = PBXBuildFile; fileRef = DABF0345124DF4E9D6F43A49 /* ROSwipenger.h */; };
+		1831664CA1CC1C5AF91120B1 /* ROSwipenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9852F2A4F01F4ED1124C26AF /* ROSwipenger.m */; };
+		19DDEAAF61EEF9DA3E18D355 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B871804D1C93F1FD96B212 /* PureLayoutDefines.h */; };
+		1CEA0B3D9E8376BDEB7601F9 /* Pods-ROSwipenger-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E821BF6BB136F1FFEFF97E42 /* Pods-ROSwipenger-ROSwipenger-dummy.m */; };
+		1F14B63F2EC9D62AADC336F0 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD4ECA1BF5183D282EF77 /* ALView+PureLayout.m */; };
+		2217C106D32D6888401733DB /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 092B723715AB04B20F88D8A5 /* NSArray+PureLayout.h */; };
+		231C9D48E61212754CD72446 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1EC0152BF8A2C5C5DCB1EF /* PureLayout.h */; };
+		30DF4CF29F2E90FCE43371FC /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B871804D1C93F1FD96B212 /* PureLayoutDefines.h */; };
+		3A0AF20779D161170ADBEB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B156F549E94B592191264E1 /* Foundation.framework */; };
+		5E6694AFD28A7F86D1B7A90A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B156F549E94B592191264E1 /* Foundation.framework */; };
+		65EBC6B9895DF03CFDB9FBB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B156F549E94B592191264E1 /* Foundation.framework */; };
+		751AC73D2792DCC10020D631 /* Pods-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 436D1462AC68B518477D3B25 /* Pods-ROSwipenger-dummy.m */; };
+		7A29A5469B881DE809CF119C /* Pods-Tests-ROSwipenger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A1E79DD2045F8A46550AFE /* Pods-Tests-ROSwipenger-dummy.m */; };
+		8056FD3FA3640945AFEB9278 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE5C17B42B8CD3D5ADFFCE9 /* PureLayout+Internal.h */; };
+		82B5F535382E671009457B7A /* Pods-ROSwipenger-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 676FCC10FEC71D02D67413F5 /* Pods-ROSwipenger-PureLayout-dummy.m */; };
+		83FA8D88EF2F902512BEBE08 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 670B8804AB7B59F3C4CA39C2 /* ALView+PureLayout.h */; };
+		87E1025CF52E8E952435BAB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B156F549E94B592191264E1 /* Foundation.framework */; };
+		8ABBBA218AE36538640FDA27 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 298DBECA87A71762C58AB989 /* NSLayoutConstraint+PureLayout.m */; };
+		8BB381013F977D469256EF56 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 298DBECA87A71762C58AB989 /* NSLayoutConstraint+PureLayout.m */; };
+		99DE13146EF071554736DC76 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F1EC0152BF8A2C5C5DCB1EF /* PureLayout.h */; };
+		A865C429FFAC049567EE660D /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4EDDE999D70D47CD3FBF9 /* NSArray+PureLayout.m */; };
+		AACF08C323B858563BBD4173 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 671D2A1A1B9FC065A971D92F /* Pods-Tests-dummy.m */; };
+		ABA1F168893672E0C43E3572 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED4EDDE999D70D47CD3FBF9 /* NSArray+PureLayout.m */; };
+		BC3FE73EEE8D549212D7A6EF /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DAD4ECA1BF5183D282EF77 /* ALView+PureLayout.m */; };
+		CA9AB9DDE46DDE5A50B8FCB4 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 092B723715AB04B20F88D8A5 /* NSArray+PureLayout.h */; };
+		CD872B948BCF64AD7103A5A8 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE5C17B42B8CD3D5ADFFCE9 /* PureLayout+Internal.h */; };
+		D751DB45EDB1CD3412AD3CD5 /* Pods-Tests-PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF955FEB9725D3654C013C /* Pods-Tests-PureLayout-dummy.m */; };
+		DE24EAE3D0D69F88D5E3A8CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B156F549E94B592191264E1 /* Foundation.framework */; };
+		E9BDEE2D38969EF3F278DB02 /* ROSwipenger.h in Headers */ = {isa = PBXBuildFile; fileRef = DABF0345124DF4E9D6F43A49 /* ROSwipenger.h */; };
+		F134AE363961CE04B53FF874 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F549EFC90DEBCE6A9D0A60E2 /* NSLayoutConstraint+PureLayout.h */; };
+		F1895D76EA39311B60325B63 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 670B8804AB7B59F3C4CA39C2 /* ALView+PureLayout.h */; };
+		F40096C777B9DF52D453F656 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F549EFC90DEBCE6A9D0A60E2 /* NSLayoutConstraint+PureLayout.h */; };
+		FFC760593BD43D2E1452B3F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B156F549E94B592191264E1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F8CB7C3E593E73215F0F256 /* PBXContainerItemProxy */ = {
+		00177866A482D08B862E8547 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			containerPortal = 742EFC72E67E3BF293730695 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3C86A3B26D669F57C1DB5638;
-			remoteInfo = "Pods-Tests-PureLayout";
-		};
-		4BE8D3F50A3870392EA29F00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CBB83DEC10E10C9D420B2969;
-			remoteInfo = "Pods-Tests-ROSwipenger-ROSwipenger";
-		};
-		6E1BF878B7F43AE0F2A4D76B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C86A3B26D669F57C1DB5638;
-			remoteInfo = "Pods-Tests-PureLayout";
-		};
-		A9465DDF606E427243F5E3F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AF907C1D86BF82D8EAF44B9;
+			remoteGlobalIDString = 92714636BA8EB3692D55150D;
 			remoteInfo = "Pods-Tests-ROSwipenger";
 		};
-		ACBE80CD553A8E1DAEC7F479 /* PBXContainerItemProxy */ = {
+		39D82B3BCD6FD1C4499FB490 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
+			containerPortal = 742EFC72E67E3BF293730695 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E203995A81CE590445505E4C;
-			remoteInfo = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
-		};
-		B6F008C33356EE3518BFDC9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B8C3D37419769B66D4F4B82D;
-			remoteInfo = "Pods-ROSwipenger-PureLayout";
-		};
-		EE4774D67F1489E855E3174D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B8C3D37419769B66D4F4B82D;
-			remoteInfo = "Pods-ROSwipenger-PureLayout";
-		};
-		F6943F1677F28CC756B7E917 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F72E733CE85620B83BAFE108 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C7F65372C5A99B492BBFBE64;
+			remoteGlobalIDString = 0A592090BC8245ED46456134;
 			remoteInfo = "Pods-ROSwipenger-ROSwipenger";
+		};
+		6E7F8129ADE758E857086C9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742EFC72E67E3BF293730695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C68A01CA56A5226CF810B49C;
+			remoteInfo = "Pods-Tests-ROSwipenger-ROSwipenger";
+		};
+		8B9BE78708094F4515A79699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742EFC72E67E3BF293730695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF83E4CC36D660E5CA1C516B;
+			remoteInfo = "Pods-ROSwipenger-PureLayout";
+		};
+		8C10EBDFDC34938D9E66BDBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742EFC72E67E3BF293730695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837ADA0B402B613F327DA49D;
+			remoteInfo = "Pods-Tests-PureLayout";
+		};
+		8C2F6BB7A6B2B20272895744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742EFC72E67E3BF293730695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF83E4CC36D660E5CA1C516B;
+			remoteInfo = "Pods-ROSwipenger-PureLayout";
+		};
+		ABA5A9DB20E5A0AD20879443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742EFC72E67E3BF293730695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837ADA0B402B613F327DA49D;
+			remoteInfo = "Pods-Tests-PureLayout";
+		};
+		D947AB2E7986DDE2AB18C183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742EFC72E67E3BF293730695 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB06DB52B629AC627ACB4557;
+			remoteInfo = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0056F60751FDC43235CB66AF /* Pods-ROSwipenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger.release.xcconfig"; sourceTree = "<group>"; };
-		005CB128D3789D72EA99C01F /* Pods-ROSwipenger-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
-		0D3D75DA877E46B3105EDB70 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		105DD46F4FC6466EAE3BF3FE /* Pods-ROSwipenger-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-environment.h"; sourceTree = "<group>"; };
-		150076B4B97B1B6B44428B0F /* Pods-ROSwipenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger.debug.xcconfig"; sourceTree = "<group>"; };
-		1756308F34E834313F7338AC /* Pods-Tests-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-ROSwipenger-dummy.m"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
-		2394F856B14573D775B92F88 /* Pods-ROSwipenger-ROSwipenger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-ROSwipenger-prefix.pch"; sourceTree = "<group>"; };
-		36402E6154F75DDB1B805A41 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
-		3815892FF3FD61934712F56B /* libPods-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38AD011DC15BA73E35909135 /* Pods-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
-		3F409657D96CD44B63F5F41A /* Pods-ROSwipenger-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		42F8B127B59F9EC4568101C7 /* ROSwipenger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSwipenger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		47441318B7B964C9CA3B8C57 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "Source/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		4FA045F75803701CA9720E31 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "Source/NSArray+PureLayout.h"; sourceTree = "<group>"; };
-		52C02556DACED5673C1A4DCA /* libPods-Tests-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		538050A2C210AC42ABB19BA3 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		548F4CC61E358D8523336D73 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5D20797233C666783AD71355 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		66A1C309711F21AF02B1EF5D /* libPods-Tests-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6751EAD7559E56430048918A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		799DBDA0AF4E8832554CA4DC /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "Source/ALView+PureLayout.h"; sourceTree = "<group>"; };
-		7E5226BBFE4A2ACC3E556242 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = Source/PureLayout.h; sourceTree = "<group>"; };
-		858AE1B9B9252899A373585D /* ROSwipenger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSwipenger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		932FE47D17BEB327E28D98F3 /* Pods-Tests-ROSwipenger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ROSwipenger-Private.xcconfig"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-Private.xcconfig"; sourceTree = "<group>"; };
-		93968F46C4170A6497C590C0 /* Pods-Tests-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PureLayout.xcconfig"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout.xcconfig"; sourceTree = "<group>"; };
-		94FB5718CF52888B241EB44B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		98390D8827142B20A5C47BF0 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "Source/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		9D3FC8FE81426E8FEC81618B /* Pods-ROSwipenger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ROSwipenger-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9FF835F1DE9809272D2BA8E7 /* Pods-Tests-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PureLayout-Private.xcconfig"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
-		A510DE7579842092D07ADFEE /* Pods-ROSwipenger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ROSwipenger-acknowledgements.plist"; sourceTree = "<group>"; };
-		A5E4DFBA3976486DE8776AB5 /* Pods-Tests-ROSwipenger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-ROSwipenger-prefix.pch"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch"; sourceTree = "<group>"; };
-		A89E04033F671544511257D9 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "Source/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		A918D747ECB05894C14CEEB0 /* libPods-ROSwipenger-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABF267312BC2EC057673A8C5 /* Pods-ROSwipenger-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-PureLayout.xcconfig"; sourceTree = "<group>"; };
-		BA7074D26231B13DB0CFB89D /* Pods-Tests-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PureLayout-dummy.m"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-dummy.m"; sourceTree = "<group>"; };
-		C3F09F67E7A5CCF700DE1A38 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "Source/ALView+PureLayout.m"; sourceTree = "<group>"; };
-		C5ED497A213608B81C81AAB1 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		CB049B74147A485423D5BF67 /* Pods-Tests-ROSwipenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ROSwipenger.xcconfig"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger.xcconfig"; sourceTree = "<group>"; };
-		CB99AE5FD20FE7DE9C179B7E /* ROSwipenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ROSwipenger.h; sourceTree = "<group>"; };
-		CE3EAAD6874E44FDCA74AA26 /* ROSwipenger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ROSwipenger.m; sourceTree = "<group>"; };
-		D04553FBA6036F936F67B467 /* Pods-ROSwipenger-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-PureLayout-dummy.m"; sourceTree = "<group>"; };
-		D8D13DC2E7587C29FC43355F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DB5197DA79CA5E9364F25D71 /* Pods-ROSwipenger-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ROSwipenger-resources.sh"; sourceTree = "<group>"; };
-		E07CE310AC0C726562FAAB4D /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "Source/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		E4962A526CDD684ED7E91ED1 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E9E2022C7B3D24802D700DD8 /* Pods-ROSwipenger-ROSwipenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-ROSwipenger.xcconfig"; sourceTree = "<group>"; };
-		EA8A988D730F1112AE87636B /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = Source/PureLayoutDefines.h; sourceTree = "<group>"; };
-		EC80EFA00A3528F9EF976A3F /* libPods-ROSwipenger-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6ECA357A264D06CDC8D1178 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F767F80AD478F548B0394FB1 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-ROSwipenger-Private.xcconfig"; sourceTree = "<group>"; };
-		FFCE60057A670BF483D828AF /* Pods-Tests-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PureLayout-prefix.pch"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		092B723715AB04B20F88D8A5 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		1494170C592EC37C8511E2A7 /* Pods-ROSwipenger-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-environment.h"; sourceTree = "<group>"; };
+		1B3CD3AE0CD7DB954446762E /* Pods-ROSwipenger-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-PureLayout.xcconfig"; sourceTree = "<group>"; };
+		1B7BD6B85ECE9E57EDD870B1 /* libPods-Tests-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DAD4ECA1BF5183D282EF77 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		2613FD8500A76F311254EB91 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		298DBECA87A71762C58AB989 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		2F1EC0152BF8A2C5C5DCB1EF /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		312DE21A283F2CEE98D27BCB /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39083C2143B2BA57E872D8CE /* ROSwipenger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSwipenger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF2AF2C0A042E7025CEC2E1 /* Pods-Tests-ROSwipenger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-ROSwipenger-prefix.pch"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch"; sourceTree = "<group>"; };
+		436D1462AC68B518477D3B25 /* Pods-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
+		49187DCA06321CA07CE6B064 /* Pods-ROSwipenger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ROSwipenger-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D637CEC4DFD117CA03EBC40 /* Pods-Tests-PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PureLayout.xcconfig"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout.xcconfig"; sourceTree = "<group>"; };
+		4F0498C518B35F87D02C4E1D /* Pods-Tests-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PureLayout-Private.xcconfig"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		566DBB89005E069CC2C97D41 /* Pods-ROSwipenger-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		5B156F549E94B592191264E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		670B8804AB7B59F3C4CA39C2 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		671D2A1A1B9FC065A971D92F /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		676FCC10FEC71D02D67413F5 /* Pods-ROSwipenger-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-PureLayout-dummy.m"; sourceTree = "<group>"; };
+		6B7D79D27E528C721D0FC4D2 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-ROSwipenger-Private.xcconfig"; sourceTree = "<group>"; };
+		6F473B4FB52EE2DC1376CD7D /* Pods-Tests-PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PureLayout-prefix.pch"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		71D518AF0794A8DEC6B8E4EB /* Pods-ROSwipenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger.debug.xcconfig"; sourceTree = "<group>"; };
+		7672D27722DDE55604BAA31B /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		77B871804D1C93F1FD96B212 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		7B2B029BEA3F8C5074057BC3 /* Pods-ROSwipenger-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ROSwipenger-resources.sh"; sourceTree = "<group>"; };
+		7DE1A256231AAC47B6554E88 /* Pods-ROSwipenger-ROSwipenger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ROSwipenger-ROSwipenger-prefix.pch"; sourceTree = "<group>"; };
+		7E413419AE331C6163A40900 /* libPods-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED4EDDE999D70D47CD3FBF9 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		7EE9083C91A58C32A63F2E07 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DEF955FEB9725D3654C013C /* Pods-Tests-PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PureLayout-dummy.m"; path = "../Pods-Tests-PureLayout/Pods-Tests-PureLayout-dummy.m"; sourceTree = "<group>"; };
+		90A1E79DD2045F8A46550AFE /* Pods-Tests-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-ROSwipenger-dummy.m"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
+		9852F2A4F01F4ED1124C26AF /* ROSwipenger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ROSwipenger.m; sourceTree = "<group>"; };
+		A58DAE6B02625299C28FE0A3 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		B11A6E2714DDCD9810B7C4F8 /* ROSwipenger.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROSwipenger.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91E281EB6C9FDDD1052E2E7 /* Pods-Tests-ROSwipenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ROSwipenger.xcconfig"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger.xcconfig"; sourceTree = "<group>"; };
+		C16D4CB44C9562A77BF006B9 /* libPods-ROSwipenger-ROSwipenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger-ROSwipenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18E512DBBE939E6950A7921 /* Pods-ROSwipenger-ROSwipenger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger-ROSwipenger.xcconfig"; sourceTree = "<group>"; };
+		C84F506EFAC790C0E4DB8B7D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8750F8E34BE4F87EA8E670F /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE52542B7ACE8891C7E49B6B /* libPods-ROSwipenger-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ROSwipenger-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE5C17B42B8CD3D5ADFFCE9 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		D3B83186C96FE18009E30BEF /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D8FA7ED8E5DEA331317CB114 /* Pods-ROSwipenger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ROSwipenger-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DABF0345124DF4E9D6F43A49 /* ROSwipenger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ROSwipenger.h; sourceTree = "<group>"; };
+		E424577B9672E75DB7C60678 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BFAAA77BE1ED6EB943AB03 /* Pods-Tests-ROSwipenger-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-ROSwipenger-Private.xcconfig"; path = "../Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-Private.xcconfig"; sourceTree = "<group>"; };
+		E821BF6BB136F1FFEFF97E42 /* Pods-ROSwipenger-ROSwipenger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ROSwipenger-ROSwipenger-dummy.m"; sourceTree = "<group>"; };
+		EEB34CF3FC8A887CC26D7732 /* Pods-ROSwipenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ROSwipenger.release.xcconfig"; sourceTree = "<group>"; };
+		F42DB9E967614C7D02180A59 /* libPods-Tests-PureLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PureLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F549EFC90DEBCE6A9D0A60E2 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		73045CFDBFED7DF76B41968B /* Frameworks */ = {
+		1C29800F2A8730E5F0D4D01C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA724967AAB685C42FD93B3 /* Foundation.framework in Frameworks */,
+				87E1025CF52E8E952435BAB1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BCDA2EC350A72BC5BF4AFAF /* Frameworks */ = {
+		1D0448591A8DB3D7B4823954 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DA1695A4FA509E92BDECAC /* Foundation.framework in Frameworks */,
+				65EBC6B9895DF03CFDB9FBB1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A610C20AAD864326C07316F2 /* Frameworks */ = {
+		256CA41231066BC8ED11389B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0D110EA5237A1F491A17638 /* Foundation.framework in Frameworks */,
+				5E6694AFD28A7F86D1B7A90A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C59A3CC540B4951AB954A669 /* Frameworks */ = {
+		2859C0DE9FC2CD583304F3A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD6D4DAB8C8A0B4ADA48B4C5 /* Foundation.framework in Frameworks */,
+				FFC760593BD43D2E1452B3F2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC9E44204EE53D295754EDFF /* Frameworks */ = {
+		544F9725F95A36CCFC4C243B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31A0F247CFA8ACED9084519 /* Foundation.framework in Frameworks */,
+				3A0AF20779D161170ADBEB96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D65B570F0B032A3FA588442B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C41ABD13406937CAC8DBDDA4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE0C1764A38567D5001FE7C5 /* Frameworks */ = {
+		8775D4D6A2DF803C4BD0ACC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2C4937F5B8AB47C2C3D7E3D /* Frameworks */ = {
+		B3E5227C7A44FC95D24B570C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE24EAE3D0D69F88D5E3A8CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED6D1DE3DE54B513A90F227 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,235 +222,272 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20642DCD399A93120E60FF35 /* Classes */ = {
+		102F70651787E491CF3A4C58 /* ROSwipenger */ = {
 			isa = PBXGroup;
 			children = (
-				CB99AE5FD20FE7DE9C179B7E /* ROSwipenger.h */,
-				CE3EAAD6874E44FDCA74AA26 /* ROSwipenger.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		27499C604D05DB0C372B6D90 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E9E2022C7B3D24802D700DD8 /* Pods-ROSwipenger-ROSwipenger.xcconfig */,
-				F767F80AD478F548B0394FB1 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */,
-				005CB128D3789D72EA99C01F /* Pods-ROSwipenger-ROSwipenger-dummy.m */,
-				2394F856B14573D775B92F88 /* Pods-ROSwipenger-ROSwipenger-prefix.pch */,
-				CB049B74147A485423D5BF67 /* Pods-Tests-ROSwipenger.xcconfig */,
-				932FE47D17BEB327E28D98F3 /* Pods-Tests-ROSwipenger-Private.xcconfig */,
-				1756308F34E834313F7338AC /* Pods-Tests-ROSwipenger-dummy.m */,
-				A5E4DFBA3976486DE8776AB5 /* Pods-Tests-ROSwipenger-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-ROSwipenger-ROSwipenger";
-			sourceTree = "<group>";
-		};
-		400514DA035C2F0B6522347B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				42F8B127B59F9EC4568101C7 /* ROSwipenger.bundle */,
-				858AE1B9B9252899A373585D /* ROSwipenger.bundle */,
-				3815892FF3FD61934712F56B /* libPods-ROSwipenger.a */,
-				EC80EFA00A3528F9EF976A3F /* libPods-ROSwipenger-PureLayout.a */,
-				A918D747ECB05894C14CEEB0 /* libPods-ROSwipenger-ROSwipenger.a */,
-				94FB5718CF52888B241EB44B /* libPods-Tests.a */,
-				52C02556DACED5673C1A4DCA /* libPods-Tests-PureLayout.a */,
-				66A1C309711F21AF02B1EF5D /* libPods-Tests-ROSwipenger.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		559814A54CD51EE3C985B952 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ABF267312BC2EC057673A8C5 /* Pods-ROSwipenger-PureLayout.xcconfig */,
-				36402E6154F75DDB1B805A41 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */,
-				D04553FBA6036F936F67B467 /* Pods-ROSwipenger-PureLayout-dummy.m */,
-				3F409657D96CD44B63F5F41A /* Pods-ROSwipenger-PureLayout-prefix.pch */,
-				93968F46C4170A6497C590C0 /* Pods-Tests-PureLayout.xcconfig */,
-				9FF835F1DE9809272D2BA8E7 /* Pods-Tests-PureLayout-Private.xcconfig */,
-				BA7074D26231B13DB0CFB89D /* Pods-Tests-PureLayout-dummy.m */,
-				FFCE60057A670BF483D828AF /* Pods-Tests-PureLayout-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-ROSwipenger-PureLayout";
-			sourceTree = "<group>";
-		};
-		63D4092C5DFEE99C0BC28E51 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				548F4CC61E358D8523336D73 /* Pods-Tests-acknowledgements.markdown */,
-				E4962A526CDD684ED7E91ED1 /* Pods-Tests-acknowledgements.plist */,
-				538050A2C210AC42ABB19BA3 /* Pods-Tests-dummy.m */,
-				C5ED497A213608B81C81AAB1 /* Pods-Tests-environment.h */,
-				5D20797233C666783AD71355 /* Pods-Tests-resources.sh */,
-				F6ECA357A264D06CDC8D1178 /* Pods-Tests.debug.xcconfig */,
-				6751EAD7559E56430048918A /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		6753D658600628B683E39CF0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				20642DCD399A93120E60FF35 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		718E4391F347CC9B91FB9A05 = {
-			isa = PBXGroup;
-			children = (
-				0D3D75DA877E46B3105EDB70 /* Podfile */,
-				E6A2B1BB1BC26BB208539520 /* Development Pods */,
-				C19639164FB886E83E4117AB /* Frameworks */,
-				8DB18E77BAAD39CD253BF58B /* Pods */,
-				400514DA035C2F0B6522347B /* Products */,
-				A81ECE20187B653EAE47D8A3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8DB18E77BAAD39CD253BF58B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F5098D1E55311123DFE102A1 /* PureLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		925987068F25B1744A4A1896 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D8D13DC2E7587C29FC43355F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A81ECE20187B653EAE47D8A3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ECC2DF45B1EC4E1CE286920C /* Pods-ROSwipenger */,
-				63D4092C5DFEE99C0BC28E51 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C19639164FB886E83E4117AB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				925987068F25B1744A4A1896 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E6A2B1BB1BC26BB208539520 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E7766F041315CBD0A1086FA3 /* ROSwipenger */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E7766F041315CBD0A1086FA3 /* ROSwipenger */ = {
-			isa = PBXGroup;
-			children = (
-				6753D658600628B683E39CF0 /* Pod */,
-				27499C604D05DB0C372B6D90 /* Support Files */,
+				FF1ACA64941905ADB748B080 /* Pod */,
+				506138086850946560B3377E /* Support Files */,
 			);
 			name = ROSwipenger;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		ECC2DF45B1EC4E1CE286920C /* Pods-ROSwipenger */ = {
+		2AB4DA8FD1EC26601B2791AC /* Pods-ROSwipenger */ = {
 			isa = PBXGroup;
 			children = (
-				9D3FC8FE81426E8FEC81618B /* Pods-ROSwipenger-acknowledgements.markdown */,
-				A510DE7579842092D07ADFEE /* Pods-ROSwipenger-acknowledgements.plist */,
-				38AD011DC15BA73E35909135 /* Pods-ROSwipenger-dummy.m */,
-				105DD46F4FC6466EAE3BF3FE /* Pods-ROSwipenger-environment.h */,
-				DB5197DA79CA5E9364F25D71 /* Pods-ROSwipenger-resources.sh */,
-				150076B4B97B1B6B44428B0F /* Pods-ROSwipenger.debug.xcconfig */,
-				0056F60751FDC43235CB66AF /* Pods-ROSwipenger.release.xcconfig */,
+				D8FA7ED8E5DEA331317CB114 /* Pods-ROSwipenger-acknowledgements.markdown */,
+				49187DCA06321CA07CE6B064 /* Pods-ROSwipenger-acknowledgements.plist */,
+				436D1462AC68B518477D3B25 /* Pods-ROSwipenger-dummy.m */,
+				1494170C592EC37C8511E2A7 /* Pods-ROSwipenger-environment.h */,
+				7B2B029BEA3F8C5074057BC3 /* Pods-ROSwipenger-resources.sh */,
+				71D518AF0794A8DEC6B8E4EB /* Pods-ROSwipenger.debug.xcconfig */,
+				EEB34CF3FC8A887CC26D7732 /* Pods-ROSwipenger.release.xcconfig */,
 			);
 			name = "Pods-ROSwipenger";
 			path = "Target Support Files/Pods-ROSwipenger";
 			sourceTree = "<group>";
 		};
-		F5098D1E55311123DFE102A1 /* PureLayout */ = {
+		32EA122B5535853A720B1276 = {
 			isa = PBXGroup;
 			children = (
-				799DBDA0AF4E8832554CA4DC /* ALView+PureLayout.h */,
-				C3F09F67E7A5CCF700DE1A38 /* ALView+PureLayout.m */,
-				4FA045F75803701CA9720E31 /* NSArray+PureLayout.h */,
-				E07CE310AC0C726562FAAB4D /* NSArray+PureLayout.m */,
-				98390D8827142B20A5C47BF0 /* NSLayoutConstraint+PureLayout.h */,
-				A89E04033F671544511257D9 /* NSLayoutConstraint+PureLayout.m */,
-				7E5226BBFE4A2ACC3E556242 /* PureLayout.h */,
-				47441318B7B964C9CA3B8C57 /* PureLayout+Internal.h */,
-				EA8A988D730F1112AE87636B /* PureLayoutDefines.h */,
-				559814A54CD51EE3C985B952 /* Support Files */,
+				C84F506EFAC790C0E4DB8B7D /* Podfile */,
+				DB937AD7C0A207AD466CF129 /* Development Pods */,
+				707016A3D6913791DEB33347 /* Frameworks */,
+				842EAC4AF71F78B20400BBDD /* Pods */,
+				B38A80F46C399F9A4BB9A42C /* Products */,
+				4348D089783D79347E58AD4B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		4348D089783D79347E58AD4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB4DA8FD1EC26601B2791AC /* Pods-ROSwipenger */,
+				A6B289C9D902FBDDB726E650 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		506138086850946560B3377E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C18E512DBBE939E6950A7921 /* Pods-ROSwipenger-ROSwipenger.xcconfig */,
+				6B7D79D27E528C721D0FC4D2 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */,
+				E821BF6BB136F1FFEFF97E42 /* Pods-ROSwipenger-ROSwipenger-dummy.m */,
+				7DE1A256231AAC47B6554E88 /* Pods-ROSwipenger-ROSwipenger-prefix.pch */,
+				B91E281EB6C9FDDD1052E2E7 /* Pods-Tests-ROSwipenger.xcconfig */,
+				E4BFAAA77BE1ED6EB943AB03 /* Pods-Tests-ROSwipenger-Private.xcconfig */,
+				90A1E79DD2045F8A46550AFE /* Pods-Tests-ROSwipenger-dummy.m */,
+				3BF2AF2C0A042E7025CEC2E1 /* Pods-Tests-ROSwipenger-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ROSwipenger-ROSwipenger";
+			sourceTree = "<group>";
+		};
+		52BC2A5D3D7AED4007B4D78D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DABF0345124DF4E9D6F43A49 /* ROSwipenger.h */,
+				9852F2A4F01F4ED1124C26AF /* ROSwipenger.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5D0D43B50C055A06DCC7AD70 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B156F549E94B592191264E1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		707016A3D6913791DEB33347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D43B50C055A06DCC7AD70 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		842EAC4AF71F78B20400BBDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6128B5DA7E0707F2F0B69F7 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6B289C9D902FBDDB726E650 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				312DE21A283F2CEE98D27BCB /* Pods-Tests-acknowledgements.markdown */,
+				7EE9083C91A58C32A63F2E07 /* Pods-Tests-acknowledgements.plist */,
+				671D2A1A1B9FC065A971D92F /* Pods-Tests-dummy.m */,
+				7672D27722DDE55604BAA31B /* Pods-Tests-environment.h */,
+				2613FD8500A76F311254EB91 /* Pods-Tests-resources.sh */,
+				C8750F8E34BE4F87EA8E670F /* Pods-Tests.debug.xcconfig */,
+				D3B83186C96FE18009E30BEF /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		B058025890D0B4E74698AB64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B3CD3AE0CD7DB954446762E /* Pods-ROSwipenger-PureLayout.xcconfig */,
+				A58DAE6B02625299C28FE0A3 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */,
+				676FCC10FEC71D02D67413F5 /* Pods-ROSwipenger-PureLayout-dummy.m */,
+				566DBB89005E069CC2C97D41 /* Pods-ROSwipenger-PureLayout-prefix.pch */,
+				4D637CEC4DFD117CA03EBC40 /* Pods-Tests-PureLayout.xcconfig */,
+				4F0498C518B35F87D02C4E1D /* Pods-Tests-PureLayout-Private.xcconfig */,
+				8DEF955FEB9725D3654C013C /* Pods-Tests-PureLayout-dummy.m */,
+				6F473B4FB52EE2DC1376CD7D /* Pods-Tests-PureLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ROSwipenger-PureLayout";
+			sourceTree = "<group>";
+		};
+		B38A80F46C399F9A4BB9A42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11A6E2714DDCD9810B7C4F8 /* ROSwipenger.bundle */,
+				39083C2143B2BA57E872D8CE /* ROSwipenger.bundle */,
+				7E413419AE331C6163A40900 /* libPods-ROSwipenger.a */,
+				CE52542B7ACE8891C7E49B6B /* libPods-ROSwipenger-PureLayout.a */,
+				C16D4CB44C9562A77BF006B9 /* libPods-ROSwipenger-ROSwipenger.a */,
+				E424577B9672E75DB7C60678 /* libPods-Tests.a */,
+				F42DB9E967614C7D02180A59 /* libPods-Tests-PureLayout.a */,
+				1B7BD6B85ECE9E57EDD870B1 /* libPods-Tests-ROSwipenger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6128B5DA7E0707F2F0B69F7 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				670B8804AB7B59F3C4CA39C2 /* ALView+PureLayout.h */,
+				22DAD4ECA1BF5183D282EF77 /* ALView+PureLayout.m */,
+				092B723715AB04B20F88D8A5 /* NSArray+PureLayout.h */,
+				7ED4EDDE999D70D47CD3FBF9 /* NSArray+PureLayout.m */,
+				F549EFC90DEBCE6A9D0A60E2 /* NSLayoutConstraint+PureLayout.h */,
+				298DBECA87A71762C58AB989 /* NSLayoutConstraint+PureLayout.m */,
+				2F1EC0152BF8A2C5C5DCB1EF /* PureLayout.h */,
+				CEE5C17B42B8CD3D5ADFFCE9 /* PureLayout+Internal.h */,
+				77B871804D1C93F1FD96B212 /* PureLayoutDefines.h */,
+				B058025890D0B4E74698AB64 /* Support Files */,
 			);
 			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		DB937AD7C0A207AD466CF129 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				102F70651787E491CF3A4C58 /* ROSwipenger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF1ACA64941905ADB748B080 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52BC2A5D3D7AED4007B4D78D /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3747AE6E009AFA1B46FFFF29 /* Headers */ = {
+		3F003B69F8513A9FB953C532 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0229F4E317C75F8E668617C /* ROSwipenger.h in Headers */,
+				F1895D76EA39311B60325B63 /* ALView+PureLayout.h in Headers */,
+				2217C106D32D6888401733DB /* NSArray+PureLayout.h in Headers */,
+				F134AE363961CE04B53FF874 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				CD872B948BCF64AD7103A5A8 /* PureLayout+Internal.h in Headers */,
+				99DE13146EF071554736DC76 /* PureLayout.h in Headers */,
+				30DF4CF29F2E90FCE43371FC /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57C10E141F03F1C913F9BEE7 /* Headers */ = {
+		6E7766421DB4912803BB192E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F9ED9DB4D485D1916E4D18B /* ROSwipenger.h in Headers */,
+				E9BDEE2D38969EF3F278DB02 /* ROSwipenger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E0E693D35E456BF68FDECF1 /* Headers */ = {
+		D3ED0D46241803B191B336E1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				673447120E22903E6C01EA58 /* ALView+PureLayout.h in Headers */,
-				C679C99B90489F21D2890D78 /* NSArray+PureLayout.h in Headers */,
-				8D6A6B11C8F299DFE5777CF5 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				7B8CF6F4A53CBF8E9F702C80 /* PureLayout+Internal.h in Headers */,
-				BBFF924A0CCEF1BB4B3DBDAE /* PureLayout.h in Headers */,
-				45B1EF1A5197EE972ADDF11B /* PureLayoutDefines.h in Headers */,
+				034505A76F35F2F33DFDBBA7 /* ROSwipenger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF79B89435363C612F37EDBC /* Headers */ = {
+		EED1077AEF19C6E49E9508A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC6892C717D902884969957 /* ALView+PureLayout.h in Headers */,
-				3040FF4E0C556F93180D5E58 /* NSArray+PureLayout.h in Headers */,
-				A7410B3C76609D484CD75233 /* NSLayoutConstraint+PureLayout.h in Headers */,
-				0DB01E12F128328449886D28 /* PureLayout+Internal.h in Headers */,
-				A8E59540E8584616CCB29106 /* PureLayout.h in Headers */,
-				C7C9AC919CA267C050CE6A83 /* PureLayoutDefines.h in Headers */,
+				83FA8D88EF2F902512BEBE08 /* ALView+PureLayout.h in Headers */,
+				CA9AB9DDE46DDE5A50B8FCB4 /* NSArray+PureLayout.h in Headers */,
+				F40096C777B9DF52D453F656 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				8056FD3FA3640945AFEB9278 /* PureLayout+Internal.h in Headers */,
+				231C9D48E61212754CD72446 /* PureLayout.h in Headers */,
+				19DDEAAF61EEF9DA3E18D355 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3C86A3B26D669F57C1DB5638 /* Pods-Tests-PureLayout */ = {
+		0A592090BC8245ED46456134 /* Pods-ROSwipenger-ROSwipenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9410618B84EC596E79DF6650 /* Build configuration list for PBXNativeTarget "Pods-Tests-PureLayout" */;
+			buildConfigurationList = D83E50AC3D32BE2A045E59EE /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger" */;
 			buildPhases = (
-				76BBCD1D62F52906120262CE /* Sources */,
-				73045CFDBFED7DF76B41968B /* Frameworks */,
-				7E0E693D35E456BF68FDECF1 /* Headers */,
+				539D55C7323575A2AD0BB0AD /* Sources */,
+				B3E5227C7A44FC95D24B570C /* Frameworks */,
+				6E7766421DB4912803BB192E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D3B347974A005FDDF0E934E /* PBXTargetDependency */,
+				3B229B32432C6CFEE8CBB2AC /* PBXTargetDependency */,
+			);
+			name = "Pods-ROSwipenger-ROSwipenger";
+			productName = "Pods-ROSwipenger-ROSwipenger";
+			productReference = C16D4CB44C9562A77BF006B9 /* libPods-ROSwipenger-ROSwipenger.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		38C30C3701679780BBC78EFC /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F807CAD61AD176AD1D6237B4 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				C8DFF9F1693ADCA14B4FD63D /* Sources */,
+				1C29800F2A8730E5F0D4D01C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F13C1C59DD1CF3750E3566 /* PBXTargetDependency */,
+				084DBE427ABCC09D8B67BDF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = E424577B9672E75DB7C60678 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		837ADA0B402B613F327DA49D /* Pods-Tests-PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB9420527FEACC4B847D10B /* Build configuration list for PBXNativeTarget "Pods-Tests-PureLayout" */;
+			buildPhases = (
+				7F70E7F98803256FF50935F9 /* Sources */,
+				1D0448591A8DB3D7B4823954 /* Frameworks */,
+				EED1077AEF19C6E49E9508A4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -458,89 +495,53 @@
 			);
 			name = "Pods-Tests-PureLayout";
 			productName = "Pods-Tests-PureLayout";
-			productReference = 52C02556DACED5673C1A4DCA /* libPods-Tests-PureLayout.a */;
+			productReference = F42DB9E967614C7D02180A59 /* libPods-Tests-PureLayout.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8AF907C1D86BF82D8EAF44B9 /* Pods-Tests-ROSwipenger */ = {
+		92714636BA8EB3692D55150D /* Pods-Tests-ROSwipenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6FE685748E667B532BDF7C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger" */;
+			buildConfigurationList = 9B15DCA0AC1EF005A40991AE /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger" */;
 			buildPhases = (
-				7F70E01F140661A2399A9AED /* Sources */,
-				CC9E44204EE53D295754EDFF /* Frameworks */,
-				57C10E141F03F1C913F9BEE7 /* Headers */,
+				DFA6CDA91D74BC33B6996EC9 /* Sources */,
+				544F9725F95A36CCFC4C243B /* Frameworks */,
+				D3ED0D46241803B191B336E1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83EEB17405A13963E86AD06C /* PBXTargetDependency */,
-				4255192EDAAF751F219F35E8 /* PBXTargetDependency */,
+				7DF66ACEEDDDD8D18A49D13C /* PBXTargetDependency */,
+				66A7214F7285E976E842A8F7 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests-ROSwipenger";
 			productName = "Pods-Tests-ROSwipenger";
-			productReference = 66A1C309711F21AF02B1EF5D /* libPods-Tests-ROSwipenger.a */;
+			productReference = 1B7BD6B85ECE9E57EDD870B1 /* libPods-Tests-ROSwipenger.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B8C3D37419769B66D4F4B82D /* Pods-ROSwipenger-PureLayout */ = {
+		B4176D880CD5DFBEB4322318 /* Pods-ROSwipenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 375689604DEA91BF07C77A2E /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-PureLayout" */;
+			buildConfigurationList = 8618F0FDB317CFCE945092ED /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger" */;
 			buildPhases = (
-				820B8291B857B5698253D0E7 /* Sources */,
-				A610C20AAD864326C07316F2 /* Frameworks */,
-				CF79B89435363C612F37EDBC /* Headers */,
+				C2AC81E58641769412D468E8 /* Sources */,
+				2859C0DE9FC2CD583304F3A8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F9414E0704663146494FB923 /* PBXTargetDependency */,
+				1B1F1B403FCB1FBBFB0E3E9A /* PBXTargetDependency */,
 			);
-			name = "Pods-ROSwipenger-PureLayout";
-			productName = "Pods-ROSwipenger-PureLayout";
-			productReference = EC80EFA00A3528F9EF976A3F /* libPods-ROSwipenger-PureLayout.a */;
+			name = "Pods-ROSwipenger";
+			productName = "Pods-ROSwipenger";
+			productReference = 7E413419AE331C6163A40900 /* libPods-ROSwipenger.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C7F65372C5A99B492BBFBE64 /* Pods-ROSwipenger-ROSwipenger */ = {
+		C68A01CA56A5226CF810B49C /* Pods-Tests-ROSwipenger-ROSwipenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A09254AC6655EF4B7A5E1249 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger" */;
+			buildConfigurationList = 74C9644AE705773E19BE0CDE /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger-ROSwipenger" */;
 			buildPhases = (
-				8523776AA566B3C2BA762C84 /* Sources */,
-				7BCDA2EC350A72BC5BF4AFAF /* Frameworks */,
-				3747AE6E009AFA1B46FFFF29 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				649C0366904C10C9A20DA410 /* PBXTargetDependency */,
-				F9F3B14E06D811FF269DE5FD /* PBXTargetDependency */,
-			);
-			name = "Pods-ROSwipenger-ROSwipenger";
-			productName = "Pods-ROSwipenger-ROSwipenger";
-			productReference = A918D747ECB05894C14CEEB0 /* libPods-ROSwipenger-ROSwipenger.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		C8C096ED5FEE03EACF281534 /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 168CC34FC2B53B8C407C63C2 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				1ABE983A3D747A4BA647ECDF /* Sources */,
-				D65B570F0B032A3FA588442B /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D0D0C50DE4CA4DECD9F1722 /* PBXTargetDependency */,
-				BA11B2719522AE8244A145A7 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 94FB5718CF52888B241EB44B /* libPods-Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CBB83DEC10E10C9D420B2969 /* Pods-Tests-ROSwipenger-ROSwipenger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB0A8B7994AE83F84E3D63BE /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger-ROSwipenger" */;
-			buildPhases = (
-				1A03C809FF48E05605436F8D /* Sources */,
-				EE0C1764A38567D5001FE7C5 /* Frameworks */,
-				024A3F2E4E1DB7BCE9CBBE1F /* Resources */,
+				9092D3BB711F09339E2DF897 /* Sources */,
+				EED6D1DE3DE54B513A90F227 /* Frameworks */,
+				9A6F35ED34A5ED135B7B5474 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -548,16 +549,16 @@
 			);
 			name = "Pods-Tests-ROSwipenger-ROSwipenger";
 			productName = "Pods-Tests-ROSwipenger-ROSwipenger";
-			productReference = 42F8B127B59F9EC4568101C7 /* ROSwipenger.bundle */;
+			productReference = B11A6E2714DDCD9810B7C4F8 /* ROSwipenger.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		E203995A81CE590445505E4C /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */ = {
+		CB06DB52B629AC627ACB4557 /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 896D494C6FEEF0F029190073 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger-ROSwipenger" */;
+			buildConfigurationList = CC3FEBDE7CE6326F39A664FA /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger-ROSwipenger" */;
 			buildPhases = (
-				3E9228CD7E725B471FE3924B /* Sources */,
-				F2C4937F5B8AB47C2C3D7E3D /* Frameworks */,
-				9BD821F7984769399130A95D /* Resources */,
+				DA5ABF64520CE8976A3DBD26 /* Sources */,
+				8775D4D6A2DF803C4BD0ACC4 /* Frameworks */,
+				F407EC9E4534356836D1FA51 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -565,68 +566,67 @@
 			);
 			name = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
 			productName = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
-			productReference = 858AE1B9B9252899A373585D /* ROSwipenger.bundle */;
+			productReference = 39083C2143B2BA57E872D8CE /* ROSwipenger.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		EF66C0471BB6E14396502EC3 /* Pods-ROSwipenger */ = {
+		FF83E4CC36D660E5CA1C516B /* Pods-ROSwipenger-PureLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EEE8979C182DB7BD52D2148B /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger" */;
+			buildConfigurationList = 709982D2B4F55C8D18A1A3F4 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-PureLayout" */;
 			buildPhases = (
-				E572AC9BDABF83B599B66053 /* Sources */,
-				C59A3CC540B4951AB954A669 /* Frameworks */,
+				E50A62A39F14F73EB10CD836 /* Sources */,
+				256CA41231066BC8ED11389B /* Frameworks */,
+				3F003B69F8513A9FB953C532 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2FC46F1AE3E77616FAD0EF05 /* PBXTargetDependency */,
-				A43E6D0D3354C5FAF37B96DD /* PBXTargetDependency */,
 			);
-			name = "Pods-ROSwipenger";
-			productName = "Pods-ROSwipenger";
-			productReference = 3815892FF3FD61934712F56B /* libPods-ROSwipenger.a */;
+			name = "Pods-ROSwipenger-PureLayout";
+			productName = "Pods-ROSwipenger-PureLayout";
+			productReference = CE52542B7ACE8891C7E49B6B /* libPods-ROSwipenger-PureLayout.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F72E733CE85620B83BAFE108 /* Project object */ = {
+		742EFC72E67E3BF293730695 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 8B5494B3F43503E0B0C40CD7 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 33F7D566E9E9203835F66A6C /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 718E4391F347CC9B91FB9A05;
-			productRefGroup = 400514DA035C2F0B6522347B /* Products */;
+			mainGroup = 32EA122B5535853A720B1276;
+			productRefGroup = B38A80F46C399F9A4BB9A42C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF66C0471BB6E14396502EC3 /* Pods-ROSwipenger */,
-				B8C3D37419769B66D4F4B82D /* Pods-ROSwipenger-PureLayout */,
-				C7F65372C5A99B492BBFBE64 /* Pods-ROSwipenger-ROSwipenger */,
-				E203995A81CE590445505E4C /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */,
-				C8C096ED5FEE03EACF281534 /* Pods-Tests */,
-				3C86A3B26D669F57C1DB5638 /* Pods-Tests-PureLayout */,
-				8AF907C1D86BF82D8EAF44B9 /* Pods-Tests-ROSwipenger */,
-				CBB83DEC10E10C9D420B2969 /* Pods-Tests-ROSwipenger-ROSwipenger */,
+				B4176D880CD5DFBEB4322318 /* Pods-ROSwipenger */,
+				FF83E4CC36D660E5CA1C516B /* Pods-ROSwipenger-PureLayout */,
+				0A592090BC8245ED46456134 /* Pods-ROSwipenger-ROSwipenger */,
+				CB06DB52B629AC627ACB4557 /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */,
+				38C30C3701679780BBC78EFC /* Pods-Tests */,
+				837ADA0B402B613F327DA49D /* Pods-Tests-PureLayout */,
+				92714636BA8EB3692D55150D /* Pods-Tests-ROSwipenger */,
+				C68A01CA56A5226CF810B49C /* Pods-Tests-ROSwipenger-ROSwipenger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		024A3F2E4E1DB7BCE9CBBE1F /* Resources */ = {
+		9A6F35ED34A5ED135B7B5474 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BD821F7984769399130A95D /* Resources */ = {
+		F407EC9E4534356836D1FA51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -636,131 +636,244 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A03C809FF48E05605436F8D /* Sources */ = {
+		539D55C7323575A2AD0BB0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CEA0B3D9E8376BDEB7601F9 /* Pods-ROSwipenger-ROSwipenger-dummy.m in Sources */,
+				1831664CA1CC1C5AF91120B1 /* ROSwipenger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F70E7F98803256FF50935F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3FE73EEE8D549212D7A6EF /* ALView+PureLayout.m in Sources */,
+				ABA1F168893672E0C43E3572 /* NSArray+PureLayout.m in Sources */,
+				8BB381013F977D469256EF56 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				D751DB45EDB1CD3412AD3CD5 /* Pods-Tests-PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9092D3BB711F09339E2DF897 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1ABE983A3D747A4BA647ECDF /* Sources */ = {
+		C2AC81E58641769412D468E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA78E054FA5B27ACCD9F200D /* Pods-Tests-dummy.m in Sources */,
+				751AC73D2792DCC10020D631 /* Pods-ROSwipenger-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E9228CD7E725B471FE3924B /* Sources */ = {
+		C8DFF9F1693ADCA14B4FD63D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACF08C323B858563BBD4173 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5ABF64520CE8976A3DBD26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76BBCD1D62F52906120262CE /* Sources */ = {
+		DFA6CDA91D74BC33B6996EC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E8652F9B6E825E608214ED4 /* ALView+PureLayout.m in Sources */,
-				CCF4E96B3A5E3D5CADB35046 /* NSArray+PureLayout.m in Sources */,
-				41E7690228C09D9478DEB493 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				34317349F68B437015E36FD7 /* Pods-Tests-PureLayout-dummy.m in Sources */,
+				7A29A5469B881DE809CF119C /* Pods-Tests-ROSwipenger-dummy.m in Sources */,
+				0031250AEB1C498EB021252C /* ROSwipenger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F70E01F140661A2399A9AED /* Sources */ = {
+		E50A62A39F14F73EB10CD836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2A1A1F974F480A24570FF16 /* Pods-Tests-ROSwipenger-dummy.m in Sources */,
-				8D3216C44C5918D8929C208F /* ROSwipenger.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		820B8291B857B5698253D0E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B9AE106B8A07D7C7781D6378 /* ALView+PureLayout.m in Sources */,
-				6B34B99E82F503CFB8CF3205 /* NSArray+PureLayout.m in Sources */,
-				4EF6391B862B14AA126F64A7 /* NSLayoutConstraint+PureLayout.m in Sources */,
-				8A03D321A1DAF29E685B06EC /* Pods-ROSwipenger-PureLayout-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8523776AA566B3C2BA762C84 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46F4C1164788F97BA1B9DF93 /* Pods-ROSwipenger-ROSwipenger-dummy.m in Sources */,
-				E9C3E8B393ED1F6F4746638E /* ROSwipenger.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E572AC9BDABF83B599B66053 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				393B489147E88064CE906133 /* Pods-ROSwipenger-dummy.m in Sources */,
+				1F14B63F2EC9D62AADC336F0 /* ALView+PureLayout.m in Sources */,
+				A865C429FFAC049567EE660D /* NSArray+PureLayout.m in Sources */,
+				8ABBBA218AE36538640FDA27 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				82B5F535382E671009457B7A /* Pods-ROSwipenger-PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FC46F1AE3E77616FAD0EF05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ROSwipenger-PureLayout";
-			target = B8C3D37419769B66D4F4B82D /* Pods-ROSwipenger-PureLayout */;
-			targetProxy = B6F008C33356EE3518BFDC9A /* PBXContainerItemProxy */;
-		};
-		4255192EDAAF751F219F35E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-ROSwipenger-ROSwipenger";
-			target = CBB83DEC10E10C9D420B2969 /* Pods-Tests-ROSwipenger-ROSwipenger */;
-			targetProxy = 4BE8D3F50A3870392EA29F00 /* PBXContainerItemProxy */;
-		};
-		649C0366904C10C9A20DA410 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ROSwipenger-PureLayout";
-			target = B8C3D37419769B66D4F4B82D /* Pods-ROSwipenger-PureLayout */;
-			targetProxy = EE4774D67F1489E855E3174D /* PBXContainerItemProxy */;
-		};
-		83EEB17405A13963E86AD06C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-PureLayout";
-			target = 3C86A3B26D669F57C1DB5638 /* Pods-Tests-PureLayout */;
-			targetProxy = 1F8CB7C3E593E73215F0F256 /* PBXContainerItemProxy */;
-		};
-		9D0D0C50DE4CA4DECD9F1722 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-PureLayout";
-			target = 3C86A3B26D669F57C1DB5638 /* Pods-Tests-PureLayout */;
-			targetProxy = 6E1BF878B7F43AE0F2A4D76B /* PBXContainerItemProxy */;
-		};
-		A43E6D0D3354C5FAF37B96DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ROSwipenger-ROSwipenger";
-			target = C7F65372C5A99B492BBFBE64 /* Pods-ROSwipenger-ROSwipenger */;
-			targetProxy = F6943F1677F28CC756B7E917 /* PBXContainerItemProxy */;
-		};
-		BA11B2719522AE8244A145A7 /* PBXTargetDependency */ = {
+		084DBE427ABCC09D8B67BDF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-ROSwipenger";
-			target = 8AF907C1D86BF82D8EAF44B9 /* Pods-Tests-ROSwipenger */;
-			targetProxy = A9465DDF606E427243F5E3F9 /* PBXContainerItemProxy */;
+			target = 92714636BA8EB3692D55150D /* Pods-Tests-ROSwipenger */;
+			targetProxy = 00177866A482D08B862E8547 /* PBXContainerItemProxy */;
 		};
-		F9F3B14E06D811FF269DE5FD /* PBXTargetDependency */ = {
+		0D3B347974A005FDDF0E934E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ROSwipenger-PureLayout";
+			target = FF83E4CC36D660E5CA1C516B /* Pods-ROSwipenger-PureLayout */;
+			targetProxy = 8B9BE78708094F4515A79699 /* PBXContainerItemProxy */;
+		};
+		1B1F1B403FCB1FBBFB0E3E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ROSwipenger-ROSwipenger";
+			target = 0A592090BC8245ED46456134 /* Pods-ROSwipenger-ROSwipenger */;
+			targetProxy = 39D82B3BCD6FD1C4499FB490 /* PBXContainerItemProxy */;
+		};
+		36F13C1C59DD1CF3750E3566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PureLayout";
+			target = 837ADA0B402B613F327DA49D /* Pods-Tests-PureLayout */;
+			targetProxy = ABA5A9DB20E5A0AD20879443 /* PBXContainerItemProxy */;
+		};
+		3B229B32432C6CFEE8CBB2AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ROSwipenger-ROSwipenger-ROSwipenger";
-			target = E203995A81CE590445505E4C /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */;
-			targetProxy = ACBE80CD553A8E1DAEC7F479 /* PBXContainerItemProxy */;
+			target = CB06DB52B629AC627ACB4557 /* Pods-ROSwipenger-ROSwipenger-ROSwipenger */;
+			targetProxy = D947AB2E7986DDE2AB18C183 /* PBXContainerItemProxy */;
+		};
+		66A7214F7285E976E842A8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-ROSwipenger-ROSwipenger";
+			target = C68A01CA56A5226CF810B49C /* Pods-Tests-ROSwipenger-ROSwipenger */;
+			targetProxy = 6E7F8129ADE758E857086C9A /* PBXContainerItemProxy */;
+		};
+		7DF66ACEEDDDD8D18A49D13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PureLayout";
+			target = 837ADA0B402B613F327DA49D /* Pods-Tests-PureLayout */;
+			targetProxy = 8C10EBDFDC34938D9E66BDBC /* PBXContainerItemProxy */;
+		};
+		F9414E0704663146494FB923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ROSwipenger-PureLayout";
+			target = FF83E4CC36D660E5CA1C516B /* Pods-ROSwipenger-PureLayout */;
+			targetProxy = 8C2F6BB7A6B2B20272895744 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		001E4C1D354F8AC9894498A3 /* Debug */ = {
+		18E0D38A3CCAA9ACABE00B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58DAE6B02625299C28FE0A3 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-PureLayout/Pods-ROSwipenger-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2924700F72D0D34D6629D839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ROSwipenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2C151343201D1ABBEA81718E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B83186C96FE18009E30BEF /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34F67323790ACC5E4C64F1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D518AF0794A8DEC6B8E4EB /* Pods-ROSwipenger.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		42C355B87E53A79D8B4C352A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0498C518B35F87D02C4E1D /* Pods-Tests-PureLayout-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65097F0387F468A35D9A22CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ROSwipenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6C8747286ACD5781FAB763D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7D79D27E528C721D0FC4D2 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-ROSwipenger/Pods-ROSwipenger-ROSwipenger-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78DBA5E5DB63ACEBB8590139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ROSwipenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7F7D37C561249C56659AA499 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -799,12 +912,39 @@
 			};
 			name = Debug;
 		};
-		145E6C2A02D584E5A4984A1E /* Release */ = {
+		803058C42E41B385B392DDD5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FF835F1DE9809272D2BA8E7 /* Pods-Tests-PureLayout-Private.xcconfig */;
+			baseConfigurationReference = EEB34CF3FC8A887CC26D7732 /* Pods-ROSwipenger.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8E1C7AF2209ED7EB991FCD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ROSwipenger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A02A9B6676E31A4818F3EF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7D79D27E528C721D0FC4D2 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-ROSwipenger/Pods-ROSwipenger-ROSwipenger-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -815,25 +955,9 @@
 			};
 			name = Release;
 		};
-		4B284ADFFA823F081EACE587 /* Debug */ = {
+		A310B574AF60703E516AB5E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 150076B4B97B1B6B44428B0F /* Pods-ROSwipenger.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4F3AE09B1956D328F38487FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 932FE47D17BEB327E28D98F3 /* Pods-Tests-ROSwipenger-Private.xcconfig */;
+			baseConfigurationReference = E4BFAAA77BE1ED6EB943AB03 /* Pods-Tests-ROSwipenger-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch";
@@ -847,13 +971,13 @@
 			};
 			name = Debug;
 		};
-		57D4358B3CA419BD4181760E /* Release */ = {
+		C86F997F65D1CFF8D953BE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0056F60751FDC43235CB66AF /* Pods-ROSwipenger.release.xcconfig */;
+			baseConfigurationReference = C8750F8E34BE4F87EA8E670F /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -861,60 +985,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
-		};
-		6510334D3C44940C929A86FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ROSwipenger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
 			name = Debug;
 		};
-		671BB23AD632DA05487716AE /* Debug */ = {
+		CE7711DCE5E14FAEE23D3C73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ROSwipenger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		6E644CDCF90F456099BB5D70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6751EAD7559E56430048918A /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		7046039042B6BD81FAA0FD6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ROSwipenger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		7AA0C4815C560512A6A71BF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 932FE47D17BEB327E28D98F3 /* Pods-Tests-ROSwipenger-Private.xcconfig */;
+			baseConfigurationReference = E4BFAAA77BE1ED6EB943AB03 /* Pods-Tests-ROSwipenger-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-ROSwipenger/Pods-Tests-ROSwipenger-prefix.pch";
@@ -928,7 +1003,7 @@
 			};
 			name = Release;
 		};
-		7E8201B36B090E1AAC12C2D0 /* Release */ = {
+		CFFFF8AFED514852D76F0BDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -962,12 +1037,12 @@
 			};
 			name = Release;
 		};
-		945884A266090DD7CCBD846C /* Release */ = {
+		D05BEE2FEBA8A64ED1EE3811 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F767F80AD478F548B0394FB1 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */;
+			baseConfigurationReference = A58DAE6B02625299C28FE0A3 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-ROSwipenger/Pods-ROSwipenger-ROSwipenger-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-PureLayout/Pods-ROSwipenger-PureLayout-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -978,45 +1053,13 @@
 			};
 			name = Release;
 		};
-		B4C3AC9D88181D4ADAF0EBD6 /* Debug */ = {
+		F654B4C98D735F8C010D576D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FF835F1DE9809272D2BA8E7 /* Pods-Tests-PureLayout-Private.xcconfig */;
+			baseConfigurationReference = 4F0498C518B35F87D02C4E1D /* Pods-Tests-PureLayout-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PureLayout/Pods-Tests-PureLayout-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CB0E5A766D3079C619E833E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36402E6154F75DDB1B805A41 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-PureLayout/Pods-ROSwipenger-PureLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D0815254402463A71C576C1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36402E6154F75DDB1B805A41 /* Pods-ROSwipenger-PureLayout-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-PureLayout/Pods-ROSwipenger-PureLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1026,134 +1069,91 @@
 			};
 			name = Release;
 		};
-		DA882113DDB1FBF452DB0099 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6ECA357A264D06CDC8D1178 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F48FDD641509D9F1CB04780F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ROSwipenger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		FCB16587972B5865E5656702 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F767F80AD478F548B0394FB1 /* Pods-ROSwipenger-ROSwipenger-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ROSwipenger-ROSwipenger/Pods-ROSwipenger-ROSwipenger-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		168CC34FC2B53B8C407C63C2 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		33F7D566E9E9203835F66A6C /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA882113DDB1FBF452DB0099 /* Debug */,
-				6E644CDCF90F456099BB5D70 /* Release */,
+				7F7D37C561249C56659AA499 /* Debug */,
+				CFFFF8AFED514852D76F0BDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		375689604DEA91BF07C77A2E /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-PureLayout" */ = {
+		709982D2B4F55C8D18A1A3F4 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB0E5A766D3079C619E833E7 /* Debug */,
-				D0815254402463A71C576C1F /* Release */,
+				18E0D38A3CCAA9ACABE00B9D /* Debug */,
+				D05BEE2FEBA8A64ED1EE3811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		896D494C6FEEF0F029190073 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger-ROSwipenger" */ = {
+		74C9644AE705773E19BE0CDE /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger-ROSwipenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				671BB23AD632DA05487716AE /* Debug */,
-				7046039042B6BD81FAA0FD6E /* Release */,
+				65097F0387F468A35D9A22CA /* Debug */,
+				78DBA5E5DB63ACEBB8590139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B5494B3F43503E0B0C40CD7 /* Build configuration list for PBXProject "Pods" */ = {
+		8618F0FDB317CFCE945092ED /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				001E4C1D354F8AC9894498A3 /* Debug */,
-				7E8201B36B090E1AAC12C2D0 /* Release */,
+				34F67323790ACC5E4C64F1A7 /* Debug */,
+				803058C42E41B385B392DDD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9410618B84EC596E79DF6650 /* Build configuration list for PBXNativeTarget "Pods-Tests-PureLayout" */ = {
+		9B15DCA0AC1EF005A40991AE /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4C3AC9D88181D4ADAF0EBD6 /* Debug */,
-				145E6C2A02D584E5A4984A1E /* Release */,
+				A310B574AF60703E516AB5E3 /* Debug */,
+				CE7711DCE5E14FAEE23D3C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A09254AC6655EF4B7A5E1249 /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger" */ = {
+		CC3FEBDE7CE6326F39A664FA /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger-ROSwipenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCB16587972B5865E5656702 /* Debug */,
-				945884A266090DD7CCBD846C /* Release */,
+				8E1C7AF2209ED7EB991FCD34 /* Debug */,
+				2924700F72D0D34D6629D839 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6FE685748E667B532BDF7C4 /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger" */ = {
+		D83E50AC3D32BE2A045E59EE /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger-ROSwipenger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F3AE09B1956D328F38487FF /* Debug */,
-				7AA0C4815C560512A6A71BF7 /* Release */,
+				6C8747286ACD5781FAB763D7 /* Debug */,
+				A02A9B6676E31A4818F3EF6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB0A8B7994AE83F84E3D63BE /* Build configuration list for PBXNativeTarget "Pods-Tests-ROSwipenger-ROSwipenger" */ = {
+		DCB9420527FEACC4B847D10B /* Build configuration list for PBXNativeTarget "Pods-Tests-PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6510334D3C44940C929A86FB /* Debug */,
-				F48FDD641509D9F1CB04780F /* Release */,
+				42C355B87E53A79D8B4C352A /* Debug */,
+				F654B4C98D735F8C010D576D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EEE8979C182DB7BD52D2148B /* Build configuration list for PBXNativeTarget "Pods-ROSwipenger" */ = {
+		F807CAD61AD176AD1D6237B4 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B284ADFFA823F081EACE587 /* Debug */,
-				57D4358B3CA419BD4181760E /* Release */,
+				C86F997F65D1CFF8D953BE97 /* Debug */,
+				2C151343201D1ABBEA81718E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F72E733CE85620B83BAFE108 /* Project object */;
+	rootObject = 742EFC72E67E3BF293730695 /* Project object */;
 }

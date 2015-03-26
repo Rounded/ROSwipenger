@@ -1,1 +1,1 @@
-../../../PureLayout/Source/NSArray+PureLayout.h
+../../../PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h
