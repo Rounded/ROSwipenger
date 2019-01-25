@@ -55,4 +55,6 @@
  */
 - (void) addTitle:(NSObject *)title withViewController:(UIViewController *)viewController atIndex:(NSInteger)index;
 
+- (void) selectTitleAtIndex:(NSInteger)index;
+
 @end

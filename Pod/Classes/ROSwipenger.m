@@ -216,6 +216,10 @@
     [self reloadViews];
 }
 
+- (void) selectTitleAtIndex:(NSInteger)index {
+    [self moveIndicatorUnderneathButton:[self.titleContainer viewWithTag:index]];
+}
+
 - (void)reloadViews {
     [UIView animateWithDuration:0.15
                      animations:^{
